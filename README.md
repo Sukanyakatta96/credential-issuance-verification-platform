@@ -55,7 +55,7 @@ python3 -m app.cli demo-users
 python3 -m app.cli serve
 ```
 
-### Full assignment dataset
+### Full dataset
 
 For the full assignment volume (20,000 learners, 1,000 courses, 10,000 distinct credentials and 5,000 verification requests):
 
