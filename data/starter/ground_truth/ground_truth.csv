@@ -1,0 +1,12 @@
+ground_truth_id,issue_type,entity_type,entity_id,related_entity_id,source_file,description
+GT-00001,credential_issued_before_completion,credential,CRD-2026-000476,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00002,credential_issued_before_completion,credential,CRD-2026-000560,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00003,credential_issued_before_completion,credential,CRD-2026-000586,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00004,duplicate_credential_id,credential,CRD-2026-000118,LRN-000725,credential.csv,second row with this credential_id (data row 1001) belongs to a different learner
+GT-00005,duplicate_credential_id,credential,CRD-2026-000941,LRN-000348,credential.csv,second row with this credential_id (data row 1002) belongs to a different learner
+GT-00006,revoked_credential_verified_active,verification_request,VER-2026-000117,CRD-2026-000169,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00007,revoked_credential_verified_active,verification_request,VER-2026-000370,CRD-2026-000541,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00008,payload_hash_altered,credential,CRD-2026-000347,,credential.csv,stored payload_hash was changed after signing
+GT-00009,payload_hash_altered,credential,CRD-2026-000278,,credential.csv,stored payload_hash was changed after signing
+GT-00010,payload_hash_alteration_not_detected,verification_request,VER-2026-000051,CRD-2026-000347,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00011,payload_hash_alteration_not_detected,verification_request,VER-2026-000016,CRD-2026-000278,verification_request.csv,recorded as valid although the payload hash fails verification

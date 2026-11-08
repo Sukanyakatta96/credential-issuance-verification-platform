@@ -1,0 +1,17 @@
+.env
+instance/
+__pycache__/
+*.pyc
+.demo_credentials.txt
+build/
+dist/
+*.db
+*.db-wal
+*.db-shm
+.test_tmp/
+.venv/
+venv/
+node_modules/
+.vscode/
+.pytest_cache/
+.coverage

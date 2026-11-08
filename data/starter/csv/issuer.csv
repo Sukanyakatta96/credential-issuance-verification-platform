@@ -1,0 +1,9 @@
+issuer_id,name,status,valid_from,valid_to,successor_issuer_id
+ISS-001,Northfield University Continuing Education,retired,2025-09-01T08:00:00Z,2026-07-01T00:00:00Z,ISS-007
+ISS-002,Lakeshore Institute of Technology,retired,2025-09-01T08:00:00Z,2026-07-01T00:00:00Z,ISS-008
+ISS-003,Meridian College of Business,active,2025-09-01T08:00:00Z,,
+ISS-004,Harbor Digital Academy,active,2025-09-01T08:00:00Z,,
+ISS-005,Summit Health Sciences Institute,active,2025-09-01T08:00:00Z,,
+ISS-006,Cascade Open Learning Alliance,active,2025-09-01T08:00:00Z,,
+ISS-007,Northfield Global Learning,active,2026-07-01T00:00:00Z,,
+ISS-008,Lakeshore Professional Institute,active,2026-07-01T00:00:00Z,,

@@ -1,0 +1,60 @@
+revocation_id,credential_id,seq,reason_code,reason_detail,effective_at,revoked_by
+REV-CRD-2026-000003-01,CRD-2026-000003,1,issued_in_error,Issued before records were reconciled,2026-01-26T13:09:26Z,USR-000001
+REV-CRD-2026-000004-01,CRD-2026-000004,1,fraud,Identity or evidence found to be fraudulent,2026-04-02T16:07:55Z,USR-000008
+REV-CRD-2026-000006-01,CRD-2026-000006,1,issued_in_error,Issued before records were reconciled,2026-04-26T10:31:53Z,USR-000001
+REV-CRD-2026-000044-01,CRD-2026-000044,1,rule_change,Credential requirements were corrected retroactively,2026-04-23T06:36:24Z,USR-000007
+REV-CRD-2026-000052-01,CRD-2026-000052,1,academic_misconduct,Assessment integrity review upheld,2026-02-18T19:51:52Z,USR-000007
+REV-CRD-2026-000086-01,CRD-2026-000086,1,rule_change,Credential requirements were corrected retroactively,2026-04-24T17:35:31Z,USR-000007
+REV-CRD-2026-000110-01,CRD-2026-000110,1,issued_in_error,Issued before records were reconciled,2026-03-29T23:19:21Z,USR-000002
+REV-CRD-2026-000123-01,CRD-2026-000123,1,learner_request,Learner asked for withdrawal of the credential,2026-04-11T10:31:13Z,USR-000001
+REV-CRD-2026-000143-01,CRD-2026-000143,1,rule_change,Credential requirements were corrected retroactively,2026-03-21T01:54:05Z,USR-000002
+REV-CRD-2026-000149-01,CRD-2026-000149,1,academic_misconduct,Assessment integrity review upheld,2026-03-16T23:28:03Z,USR-000008
+REV-CRD-2026-000162-01,CRD-2026-000162,1,learner_request,Learner asked for withdrawal of the credential,2026-04-09T13:13:19Z,USR-000002
+REV-CRD-2026-000169-01,CRD-2026-000169,1,academic_misconduct,Assessment integrity review upheld,2026-03-29T10:43:25Z,USR-000002
+REV-CRD-2026-000178-01,CRD-2026-000178,1,issued_in_error,Issued before records were reconciled,2026-02-17T00:13:44Z,USR-000003
+REV-CRD-2026-000188-01,CRD-2026-000188,1,learner_request,Learner asked for withdrawal of the credential,2026-03-15T15:10:50Z,USR-000001
+REV-CRD-2026-000209-01,CRD-2026-000209,1,academic_misconduct,Assessment integrity review upheld,2026-04-27T00:18:39Z,USR-000007
+REV-CRD-2026-000217-01,CRD-2026-000217,1,rule_change,Credential requirements were corrected retroactively,2026-04-10T23:58:15Z,USR-000007
+REV-CRD-2026-000221-01,CRD-2026-000221,1,rule_change,Credential requirements were corrected retroactively,2026-03-27T12:53:48Z,USR-000008
+REV-CRD-2026-000237-01,CRD-2026-000237,1,learner_request,Learner asked for withdrawal of the credential,2026-01-14T19:07:19Z,USR-000002
+REV-CRD-2026-000248-01,CRD-2026-000248,1,rule_change,Credential requirements were corrected retroactively,2026-03-11T23:48:42Z,USR-000001
+REV-CRD-2026-000254-01,CRD-2026-000254,1,learner_request,Learner asked for withdrawal of the credential,2026-02-09T18:03:25Z,USR-000001
+REV-CRD-2026-000256-01,CRD-2026-000256,1,learner_request,Learner asked for withdrawal of the credential,2026-03-07T10:57:19Z,USR-000001
+REV-CRD-2026-000270-01,CRD-2026-000270,1,academic_misconduct,Assessment integrity review upheld,2026-03-11T12:44:16Z,USR-000007
+REV-CRD-2026-000283-01,CRD-2026-000283,1,issued_in_error,Issued before records were reconciled,2026-04-05T22:04:09Z,USR-000003
+REV-CRD-2026-000328-01,CRD-2026-000328,1,rule_change,Credential requirements were corrected retroactively,2026-05-09T09:46:38Z,USR-000001
+REV-CRD-2026-000342-01,CRD-2026-000342,1,fraud,Identity or evidence found to be fraudulent,2026-04-08T00:33:27Z,USR-000002
+REV-CRD-2026-000368-01,CRD-2026-000368,1,learner_request,Learner asked for withdrawal of the credential,2026-03-04T11:01:45Z,USR-000007
+REV-CRD-2026-000380-01,CRD-2026-000380,1,learner_request,Learner asked for withdrawal of the credential,2026-04-03T21:53:44Z,USR-000008
+REV-CRD-2026-000390-01,CRD-2026-000390,1,learner_request,Learner asked for withdrawal of the credential,2026-03-11T22:30:06Z,USR-000003
+REV-CRD-2026-000447-01,CRD-2026-000447,1,learner_request,Learner asked for withdrawal of the credential,2026-04-17T23:36:41Z,USR-000007
+REV-CRD-2026-000457-01,CRD-2026-000457,1,learner_request,Learner asked for withdrawal of the credential,2026-06-25T01:16:50Z,USR-000003
+REV-CRD-2026-000461-01,CRD-2026-000461,1,rule_change,Credential requirements were corrected retroactively,2026-06-19T13:23:07Z,USR-000002
+REV-CRD-2026-000471-01,CRD-2026-000471,1,academic_misconduct,Assessment integrity review upheld,2026-05-24T16:10:03Z,USR-000003
+REV-CRD-2026-000474-01,CRD-2026-000474,1,fraud,Identity or evidence found to be fraudulent,2026-05-05T17:25:51Z,USR-000001
+REV-CRD-2026-000516-01,CRD-2026-000516,1,learner_request,Learner asked for withdrawal of the credential,2026-07-05T16:31:34Z,USR-000007
+REV-CRD-2026-000541-01,CRD-2026-000541,1,fraud,Identity or evidence found to be fraudulent,2026-07-30T22:28:34Z,USR-000002
+REV-CRD-2026-000544-01,CRD-2026-000544,1,fraud,Identity or evidence found to be fraudulent,2026-07-23T16:23:52Z,USR-000008
+REV-CRD-2026-000546-01,CRD-2026-000546,1,academic_misconduct,Assessment integrity review upheld,2026-06-16T21:13:09Z,USR-000008
+REV-CRD-2026-000559-01,CRD-2026-000559,1,issued_in_error,Issued before records were reconciled,2026-06-05T22:29:42Z,USR-000008
+REV-CRD-2026-000567-01,CRD-2026-000567,1,academic_misconduct,Assessment integrity review upheld,2026-07-25T16:38:54Z,USR-000003
+REV-CRD-2026-000578-01,CRD-2026-000578,1,learner_request,Learner asked for withdrawal of the credential,2026-07-04T10:51:02Z,USR-000008
+REV-CRD-2026-000626-01,CRD-2026-000626,1,issued_in_error,Issued before records were reconciled,2026-08-03T20:00:11Z,USR-000002
+REV-CRD-2026-000647-01,CRD-2026-000647,1,rule_change,Credential requirements were corrected retroactively,2026-06-20T05:00:35Z,USR-000003
+REV-CRD-2026-000672-01,CRD-2026-000672,1,rule_change,Credential requirements were corrected retroactively,2026-09-30T06:49:16Z,USR-000007
+REV-CRD-2026-000712-01,CRD-2026-000712,1,learner_request,Learner asked for withdrawal of the credential,2026-07-17T14:59:56Z,USR-000002
+REV-CRD-2026-000721-01,CRD-2026-000721,1,rule_change,Credential requirements were corrected retroactively,2026-10-07T04:43:03Z,USR-000002
+REV-CRD-2026-000757-01,CRD-2026-000757,1,academic_misconduct,Assessment integrity review upheld,2026-08-22T19:42:45Z,USR-000003
+REV-CRD-2026-000789-01,CRD-2026-000789,1,academic_misconduct,Assessment integrity review upheld,2026-08-16T13:25:23Z,USR-000008
+REV-CRD-2026-000796-01,CRD-2026-000796,1,academic_misconduct,Assessment integrity review upheld,2026-09-28T22:09:59Z,USR-000002
+REV-CRD-2026-000806-01,CRD-2026-000806,1,learner_request,Learner asked for withdrawal of the credential,2026-10-11T08:38:51Z,USR-000001
+REV-CRD-2026-000835-01,CRD-2026-000835,1,rule_change,Credential requirements were corrected retroactively,2026-08-21T04:41:08Z,USR-000001
+REV-CRD-2026-000856-01,CRD-2026-000856,1,fraud,Identity or evidence found to be fraudulent,2026-10-16T12:15:49Z,USR-000003
+REV-CRD-2026-000886-01,CRD-2026-000886,1,learner_request,Learner asked for withdrawal of the credential,2026-10-21T18:00:00Z,USR-000007
+REV-CRD-2026-000892-01,CRD-2026-000892,1,issued_in_error,Issued before records were reconciled,2026-09-19T18:33:40Z,USR-000003
+REV-CRD-2026-000894-01,CRD-2026-000894,1,issued_in_error,Issued before records were reconciled,2026-10-21T18:00:00Z,USR-000008
+REV-CRD-2026-000900-01,CRD-2026-000900,1,fraud,Identity or evidence found to be fraudulent,2026-10-21T18:00:00Z,USR-000003
+REV-CRD-2026-000905-01,CRD-2026-000905,1,issued_in_error,Issued before records were reconciled,2026-10-21T18:00:00Z,USR-000008
+REV-CRD-2026-000911-01,CRD-2026-000911,1,learner_request,Learner asked for withdrawal of the credential,2026-10-21T18:00:00Z,USR-000008
+REV-CRD-2026-000914-01,CRD-2026-000914,1,rule_change,Credential requirements were corrected retroactively,2026-10-21T18:00:00Z,USR-000002
+REV-CRD-2026-000944-01,CRD-2026-000944,1,rule_change,Credential requirements were corrected retroactively,2026-10-21T18:00:00Z,USR-000008

@@ -1,0 +1,206 @@
+{
+  "generator": "datagen",
+  "generator_version": "1.0.0",
+  "command": "python -m datagen.generate --scale full --seed 20261022 --learners 20000 --courses 1000 --credentials 10000 --verifications 5000",
+  "seed": 20261022,
+  "parameters": {
+    "learners": 20000,
+    "courses": 1000,
+    "credentials": 10000,
+    "verifications": 5000
+  },
+  "signing_secret_note": "Issuer public keys derive from SIGNING_MASTER_SECRET; use the same value to reproduce checksums.",
+  "row_counts": {
+    "learner": 20000,
+    "instructor": 62,
+    "app_user": 370,
+    "issuer": 8,
+    "issuer_key": 9,
+    "course": 1000,
+    "credential_rule": 142,
+    "credential_rule_course": 528,
+    "rule_issuer_assignment": 204,
+    "completion_record": 77747,
+    "assessment_attempt": 79564,
+    "credential": 10008,
+    "credential_completion": 36442,
+    "revocation": 599,
+    "verification_request": 5000,
+    "audit_event": 89641
+  },
+  "ground_truth_rows": 103,
+  "meta": {
+    "eligible_pairs": 12072,
+    "pending_eligible_not_issued": 2072,
+    "anomaly_counts": {
+      "issued_before_completion": 30,
+      "duplicate_id": 8,
+      "revoked_verifies_active": 25,
+      "altered_hash": 20
+    },
+    "dataset_reference_time": "2026-10-22T18:00:00Z",
+    "issuance_go_live": "2026-01-05T09:00:00Z"
+  },
+  "files": {
+    "csv/app_user.csv": {
+      "sha256": "4aefbf9a29f40d3ceda286743ac1489cb3e5cfbbe8423b0d892127f439353a31",
+      "bytes": 31165
+    },
+    "csv/assessment_attempt.csv": {
+      "sha256": "94c4d2a23eea58c3c851ee1569ac138f91be1997e5d6f2e8884c57fa3dcd4193",
+      "bytes": 6757645
+    },
+    "csv/audit_event.csv": {
+      "sha256": "e98d802a856610f8f23c2f2932bcb0ae605183f5f2a00d225dd4693b94070c9e",
+      "bytes": 28108037
+    },
+    "csv/completion_record.csv": {
+      "sha256": "6fa4bb6dba54ca3fbdb3cd3b8105fdba608c44ed9a31c262e2fd63bb5c5a589c",
+      "bytes": 8524396
+    },
+    "csv/course.csv": {
+      "sha256": "b2f504942134661e60e499141fdd95c099b6cb3948bbae1ff6c8dda63867af3e",
+      "bytes": 113323
+    },
+    "csv/credential.csv": {
+      "sha256": "3962588b17c28ff45842dbfd9ef758da7d67dfbc1a6be059838580eae3500d17",
+      "bytes": 6901242
+    },
+    "csv/credential_completion.csv": {
+      "sha256": "fcd582c946e8b2fd8cfff67fd47891e5d069ff8bf1a2b9600ff38897d609bc83",
+      "bytes": 1530592
+    },
+    "csv/credential_rule.csv": {
+      "sha256": "e054c21e73cae8afbb38510bc65127a3f8be42101686ea4e4eda60b3da90087f",
+      "bytes": 18627
+    },
+    "csv/credential_rule_course.csv": {
+      "sha256": "8809d7dfb939620375a1d40916c30b30e8ba3fcb3aad3b48da78ee6c72da49bc",
+      "bytes": 12703
+    },
+    "csv/instructor.csv": {
+      "sha256": "08af86719c372d7fcf519ceae83b6e0b8a8ac1022a4138a9dbab5df8f84c75e4",
+      "bytes": 4237
+    },
+    "csv/issuer.csv": {
+      "sha256": "bfcd288b71d6a3f7c74f08a74eb3e90672a8186577bfa247cca76c28d6f801a1",
+      "bytes": 675
+    },
+    "csv/issuer_key.csv": {
+      "sha256": "087cd5486b10e41413e8c1a0c81f98b55a63e1d3553d05155cd3e78693a8f6a1",
+      "bytes": 1077
+    },
+    "csv/learner.csv": {
+      "sha256": "8ce99cb24ef28d15fb5b97d3602e9dd79e55da1ff8ab7d022c68b9db18bc7d9a",
+      "bytes": 2001580
+    },
+    "csv/revocation.csv": {
+      "sha256": "38aac50807507f857cdf8111ab9db9450f430b0ea47d23065d4cdf83a21fe7f3",
+      "bytes": 78257
+    },
+    "csv/rule_issuer_assignment.csv": {
+      "sha256": "a295f5ae4fc54f32228d1195ca828376fa5178d569ce7bc9d1ced1f5f8c5dc9c",
+      "bytes": 11908
+    },
+    "csv/verification_request.csv": {
+      "sha256": "0e76f433c4f08435d777ac24504e97d63d64a040e4aa067c260728d531286b75",
+      "bytes": 755991
+    },
+    "data_dictionary.json": {
+      "sha256": "2ead66fcdf6e58246d29e57c8cc0b3e93d06cf5b6fc78e4f9bae8bf864e0e320",
+      "bytes": 33841
+    },
+    "ground_truth/ground_truth.csv": {
+      "sha256": "100a3ad257fceaa37f22827dea875b07364f9f32aeff113bd4cc236a7a7d315a",
+      "bytes": 17243
+    },
+    "ground_truth/ground_truth.json": {
+      "sha256": "cc1defed87ad7529459251f873dcedc5b695ca445d14890b594756f7dbcb6124",
+      "bytes": 29716
+    },
+    "ground_truth/ground_truth_expected_decisions.csv": {
+      "sha256": "c56c16553156fd2240dadc7aca17dfbfe6abff1ae404afa3a165137b1285a9b3",
+      "bytes": 186848
+    },
+    "ground_truth/ground_truth_expected_decisions.json": {
+      "sha256": "e530c4e480e157480b8ee316535f265551b3841584c49496d71dd2c625abb77a",
+      "bytes": 697375
+    },
+    "json/app_user.json": {
+      "sha256": "9390946ffc2e4d23f1200fb866c9746e0818f8a8bc240a5773ac8a3482d4d43d",
+      "bytes": 66267
+    },
+    "json/assessment_attempt.json": {
+      "sha256": "016279dcaea45d560a618da8210646b60f9a5a72e9815ebefe22f64b83518cfa",
+      "bytes": 13281832
+    },
+    "json/audit_event.json": {
+      "sha256": "cedb66c447ac73444eb6bb66613a2916baf3582faff9cb198d49fe01e288d408",
+      "bytes": 42158536
+    },
+    "json/completion_record.json": {
+      "sha256": "e314e41bfe9ddd33a1a6730ca913c76e82af488e2892568740b66eb5cd5fc2d0",
+      "bytes": 19283685
+    },
+    "json/course.json": {
+      "sha256": "6f3aef4b36d1a4ae3b7720370fed7a117b8d16b62bd2f01ef9a3f4a9ace4d53a",
+      "bytes": 248225
+    },
+    "json/credential.json": {
+      "sha256": "246f57b764a1455afe0d57e388141d474e8a836e017bcd29a9eca6b30cc85af2",
+      "bytes": 8673927
+    },
+    "json/credential_completion.json": {
+      "sha256": "1fe2946908f347f65b7f02a8789bea60438c96c72767ca6ad8981a8c45a75d48",
+      "bytes": 2915361
+    },
+    "json/credential_rule.json": {
+      "sha256": "152c00e8fbd32620726855b2ba2954975f164e529f3605042f5fbe536d9b9893",
+      "bytes": 46330
+    },
+    "json/credential_rule_course.json": {
+      "sha256": "23fe2442440b791292e6f1edfad1ccef393357bdd3ca0fb29d79832c94e24cc3",
+      "bytes": 35377
+    },
+    "json/instructor.json": {
+      "sha256": "5a70c31cde61b4596e1cabe4ce1685cddbac4417e28d257605119582141d8079",
+      "bytes": 7855
+    },
+    "json/issuer.json": {
+      "sha256": "88c81490e0d460a8c91624dc4f6735f29be00500eaf25a64dc508f6dded6e30d",
+      "bytes": 1342
+    },
+    "json/issuer_key.json": {
+      "sha256": "460cc8bcbffd73eb26dc432375df0ec7a563cc1746c371862e206564008e6475",
+      "bytes": 1912
+    },
+    "json/learner.json": {
+      "sha256": "9543c9aa346648302aa29a1525bedbf8f42fa90a08a4027a042f60610b9bab81",
+      "bytes": 4101506
+    },
+    "json/revocation.json": {
+      "sha256": "648b93c741b1c9866156765e05691164f559a6412aa5b2435f85cd9e1a37a57b",
+      "bytes": 144066
+    },
+    "json/rule_issuer_assignment.json": {
+      "sha256": "091e5ee6137c11c42c1d88993e14ff4147311b133a1f3ea087e8b85d10a8db9a",
+      "bytes": 28861
+    },
+    "json/verification_request.json": {
+      "sha256": "48557beb93301a4af34cfbd99c3fc5630a7c8f513a12835562c04fadf7043640",
+      "bytes": 2169600
+    },
+    "source_manifest.json": {
+      "sha256": "3f4c61fb322142b5fa550f147aef1e50b89ad65e244dfb77a3252e299be7bd43",
+      "bytes": 725
+    },
+    "sql/schema.sql": {
+      "sha256": "248bc09108ed0e7e6174967529bcfac0bd66c3026e5510e6dabcd9d07232a7f0",
+      "bytes": 14828
+    },
+    "sql/seed.sql": {
+      "sha256": "6f6d3cd43099deaf60499ac851ef1b97da67af3e672136508c1f139023a63f56",
+      "bytes": 61151116
+    }
+  }
+}

@@ -1,0 +1,1001 @@
+course_id,title,category,level,credit_hours,pass_mark,max_attempts,instructor_id,status,created_at
+CRS-000001,Data Wrangling in Practice,Data Science,intermediate,12,70,4,INS-0037,active,2025-05-05T18:22:57Z
+CRS-000002,API Design in Practice,Software Engineering,intermediate,24,65,4,INS-0034,active,2025-07-10T05:04:33Z
+CRS-000003,Network Defence Fundamentals,Cybersecurity,introductory,25,65,2,INS-0009,active,2025-06-12T23:38:07Z
+CRS-000004,Forecasting Foundations,Business Analytics,introductory,35,65,3,INS-0020,active,2025-08-14T20:59:51Z
+CRS-000005,Social Analytics Foundations,Digital Marketing,introductory,10,70,2,INS-0055,active,2025-06-11T19:40:12Z
+CRS-000006,Telehealth Systems Foundations,Healthcare Informatics,introductory,29,70,3,INS-0017,active,2025-07-09T00:07:44Z
+CRS-000007,Scheduling in Practice,Project Management,intermediate,58,65,3,INS-0049,active,2025-06-05T06:28:58Z
+CRS-000008,Usability Testing Foundations,UX Design,introductory,35,60,4,INS-0046,active,2025-05-05T06:58:56Z
+CRS-000009,Infrastructure as Code Fundamentals,Cloud Computing,introductory,11,55,2,INS-0018,active,2025-06-05T17:08:17Z
+CRS-000010,Risk Analytics Specialist Track,Finance,advanced,32,60,3,INS-0002,active,2025-07-30T09:33:10Z
+CRS-000011,Policy Analysis Essentials,Sustainability,introductory,30,60,3,INS-0004,active,2025-06-13T18:49:06Z
+CRS-000012,Neural Networks Applied,AI and Machine Learning,intermediate,24,55,3,INS-0024,active,2025-06-11T10:37:37Z
+CRS-000013,Predictive Modelling Foundations,Data Science,introductory,21,70,2,INS-0052,active,2025-05-07T21:56:01Z
+CRS-000014,Python Programming Essentials,Software Engineering,introductory,18,70,4,INS-0062,active,2025-07-29T04:50:53Z
+CRS-000015,Forensics Foundations,Cybersecurity,introductory,50,50,2,INS-0041,active,2025-08-21T09:08:08Z
+CRS-000016,Forecasting Applied,Business Analytics,intermediate,45,75,4,INS-0019,active,2025-06-24T01:28:55Z
+CRS-000017,Marketing Automation Specialist Track,Digital Marketing,advanced,32,60,3,INS-0031,archived,2025-07-29T18:16:01Z
+CRS-000018,Medical Coding Fundamentals,Healthcare Informatics,introductory,28,75,4,INS-0050,active,2025-05-15T11:58:12Z
+CRS-000019,Portfolio Management Advanced,Project Management,advanced,26,60,2,INS-0046,active,2025-06-14T21:57:26Z
+CRS-000020,Prototyping Foundations,UX Design,introductory,37,70,2,INS-0029,active,2025-06-08T13:01:12Z
+CRS-000021,Infrastructure as Code Advanced,Cloud Computing,advanced,44,60,2,INS-0041,active,2025-05-08T00:54:12Z
+CRS-000022,Risk Analytics Foundations,Finance,introductory,18,60,2,INS-0006,active,2025-05-30T23:15:39Z
+CRS-000023,Policy Analysis Fundamentals,Sustainability,introductory,21,50,3,INS-0039,active,2025-05-23T18:28:32Z
+CRS-000024,Computer Vision Workshop,AI and Machine Learning,intermediate,19,65,2,INS-0001,active,2025-08-15T19:59:54Z
+CRS-000025,Experiment Design in Practice,Data Science,intermediate,20,60,3,INS-0019,active,2025-05-19T22:13:39Z
+CRS-000026,Web Development Foundations,Software Engineering,introductory,20,60,3,INS-0042,active,2025-07-28T06:26:48Z
+CRS-000027,Security Governance Advanced,Cybersecurity,advanced,39,60,2,INS-0046,active,2025-06-28T01:06:24Z
+CRS-000028,Decision Models Essentials,Business Analytics,introductory,48,60,2,INS-0022,active,2025-07-08T02:46:13Z
+CRS-000029,Social Analytics Essentials,Digital Marketing,introductory,10,60,2,INS-0045,active,2025-07-01T11:07:15Z
+CRS-000030,Privacy in Health Masterclass,Healthcare Informatics,advanced,45,55,4,INS-0016,active,2025-05-18T09:45:03Z
+CRS-000031,Budgeting Applied,Project Management,intermediate,18,75,2,INS-0018,active,2025-07-03T12:00:11Z
+CRS-000032,User Research Workshop,UX Design,intermediate,16,65,3,INS-0018,active,2025-07-18T13:47:49Z
+CRS-000033,Cloud Security Workshop,Cloud Computing,intermediate,30,60,3,INS-0004,active,2025-06-19T13:03:26Z
+CRS-000034,Financial Statements in Practice,Finance,intermediate,45,75,4,INS-0018,active,2025-07-11T04:05:07Z
+CRS-000035,ESG Reporting Workshop,Sustainability,intermediate,33,75,3,INS-0028,active,2025-07-27T01:14:11Z
+CRS-000036,Machine Learning Advanced,AI and Machine Learning,advanced,49,70,2,INS-0005,active,2025-07-05T10:47:31Z
+CRS-000037,Statistics Foundations,Data Science,introductory,25,60,3,INS-0059,active,2025-08-10T07:55:19Z
+CRS-000038,API Design Masterclass,Software Engineering,advanced,51,70,4,INS-0054,active,2025-05-17T08:20:51Z
+CRS-000039,Incident Response Essentials,Cybersecurity,introductory,18,65,3,INS-0042,active,2025-08-04T18:46:27Z
+CRS-000040,Forecasting Fundamentals,Business Analytics,introductory,57,75,3,INS-0037,active,2025-08-11T09:33:42Z
+CRS-000041,Content Strategy Advanced,Digital Marketing,advanced,54,65,4,INS-0011,active,2025-05-12T15:20:50Z
+CRS-000042,Medical Coding Workshop,Healthcare Informatics,intermediate,49,65,3,INS-0006,archived,2025-07-10T10:56:39Z
+CRS-000043,Budgeting Fundamentals,Project Management,introductory,21,60,2,INS-0049,active,2025-07-25T09:22:26Z
+CRS-000044,Interaction Design Workshop,UX Design,intermediate,26,55,2,INS-0006,active,2025-08-10T20:51:58Z
+CRS-000045,Containers Foundations,Cloud Computing,introductory,32,55,4,INS-0017,active,2025-08-07T21:52:55Z
+CRS-000046,Budget Control Fundamentals,Finance,introductory,24,75,3,INS-0061,active,2025-06-28T08:31:29Z
+CRS-000047,Sustainable Supply Chains Workshop,Sustainability,intermediate,45,70,3,INS-0005,active,2025-08-21T17:15:45Z
+CRS-000048,Evaluation Methods Foundations,AI and Machine Learning,introductory,32,60,2,INS-0051,active,2025-05-03T16:06:26Z
+CRS-000049,Experiment Design Essentials,Data Science,introductory,22,60,2,INS-0016,active,2025-08-13T16:30:45Z
+CRS-000050,Python Programming Masterclass,Software Engineering,advanced,32,60,4,INS-0053,active,2025-05-28T03:02:55Z
+CRS-000051,Network Defence Fundamentals 2,Cybersecurity,introductory,38,60,2,INS-0053,active,2025-08-03T04:58:50Z
+CRS-000052,Pricing Analytics in Practice,Business Analytics,intermediate,20,60,3,INS-0040,active,2025-05-21T17:41:39Z
+CRS-000053,Audience Research in Practice,Digital Marketing,intermediate,34,50,4,INS-0009,active,2025-08-29T07:31:53Z
+CRS-000054,Privacy in Health Fundamentals,Healthcare Informatics,introductory,11,60,3,INS-0048,active,2025-05-16T03:50:00Z
+CRS-000055,Portfolio Management Foundations,Project Management,introductory,26,75,3,INS-0003,active,2025-08-10T03:02:28Z
+CRS-000056,Information Architecture in Practice,UX Design,intermediate,56,60,3,INS-0055,active,2025-08-17T16:14:00Z
+CRS-000057,Containers Workshop,Cloud Computing,intermediate,19,70,4,INS-0001,active,2025-08-09T02:30:13Z
+CRS-000058,Risk Analytics Applied,Finance,intermediate,34,60,2,INS-0010,active,2025-06-02T13:11:06Z
+CRS-000059,Sustainable Supply Chains Fundamentals,Sustainability,introductory,38,60,2,INS-0054,archived,2025-06-13T18:41:19Z
+CRS-000060,Natural Language Fundamentals,AI and Machine Learning,introductory,10,65,2,INS-0016,active,2025-06-15T09:36:47Z
+CRS-000061,Visualisation in Practice,Data Science,intermediate,11,60,4,INS-0051,active,2025-06-12T20:52:01Z
+CRS-000062,Version Control in Practice,Software Engineering,intermediate,25,60,2,INS-0037,active,2025-08-20T08:44:42Z
+CRS-000063,Network Defence in Practice,Cybersecurity,intermediate,18,75,3,INS-0056,active,2025-07-29T18:02:45Z
+CRS-000064,Forecasting Workshop,Business Analytics,intermediate,12,70,2,INS-0041,active,2025-06-28T18:13:31Z
+CRS-000065,Social Analytics Workshop,Digital Marketing,intermediate,44,75,3,INS-0053,active,2025-07-19T15:57:39Z
+CRS-000066,Privacy in Health Workshop,Healthcare Informatics,intermediate,38,60,2,INS-0045,active,2025-05-21T07:26:56Z
+CRS-000067,Quality Assurance Specialist Track,Project Management,advanced,32,50,3,INS-0002,active,2025-06-22T02:23:45Z
+CRS-000068,Usability Testing Foundations 2,UX Design,introductory,19,55,2,INS-0043,archived,2025-08-03T18:46:04Z
+CRS-000069,Monitoring Specialist Track,Cloud Computing,advanced,12,60,4,INS-0054,active,2025-08-21T03:55:09Z
+CRS-000070,Treasury in Practice,Finance,intermediate,18,60,2,INS-0026,active,2025-07-28T13:26:11Z
+CRS-000071,Carbon Accounting Workshop,Sustainability,intermediate,49,65,3,INS-0034,active,2025-05-07T14:06:59Z
+CRS-000072,Feature Engineering Applied,AI and Machine Learning,intermediate,35,65,4,INS-0043,active,2025-06-19T10:53:46Z
+CRS-000073,Data Wrangling Workshop,Data Science,intermediate,55,55,3,INS-0038,active,2025-06-24T18:28:37Z
+CRS-000074,Version Control Foundations,Software Engineering,introductory,54,60,3,INS-0028,active,2025-07-28T17:55:01Z
+CRS-000075,Cryptography Basics Foundations,Cybersecurity,introductory,36,75,2,INS-0048,active,2025-05-05T23:11:47Z
+CRS-000076,Decision Models Applied,Business Analytics,intermediate,8,60,2,INS-0057,active,2025-05-15T11:15:59Z
+CRS-000077,Audience Research Applied,Digital Marketing,intermediate,57,60,4,INS-0025,active,2025-07-12T11:21:36Z
+CRS-000078,Medical Coding Masterclass,Healthcare Informatics,advanced,49,50,3,INS-0047,active,2025-07-31T17:29:38Z
+CRS-000079,Stakeholder Communication Workshop,Project Management,intermediate,49,70,4,INS-0002,active,2025-08-05T20:17:37Z
+CRS-000080,Usability Testing Applied,UX Design,intermediate,50,70,3,INS-0025,active,2025-07-20T14:17:36Z
+CRS-000081,Monitoring Fundamentals,Cloud Computing,introductory,50,65,3,INS-0033,active,2025-06-21T09:52:40Z
+CRS-000082,Corporate Valuation Fundamentals,Finance,introductory,35,70,2,INS-0033,active,2025-07-23T00:20:00Z
+CRS-000083,ESG Reporting Essentials,Sustainability,introductory,20,65,3,INS-0037,active,2025-08-02T08:29:52Z
+CRS-000084,Computer Vision Essentials,AI and Machine Learning,introductory,39,70,3,INS-0045,active,2025-05-29T04:17:53Z
+CRS-000085,Visualisation Essentials,Data Science,introductory,41,60,4,INS-0005,active,2025-08-10T14:14:02Z
+CRS-000086,Version Control Foundations 2,Software Engineering,introductory,11,60,3,INS-0060,active,2025-05-31T18:47:51Z
+CRS-000087,Threat Modelling in Practice,Cybersecurity,intermediate,10,70,4,INS-0006,active,2025-08-02T20:51:34Z
+CRS-000088,Dashboards Specialist Track,Business Analytics,advanced,44,70,4,INS-0010,active,2025-06-29T12:46:28Z
+CRS-000089,Search Marketing Applied,Digital Marketing,intermediate,43,75,3,INS-0055,active,2025-05-19T15:00:20Z
+CRS-000090,Health Records Workshop,Healthcare Informatics,intermediate,47,65,2,INS-0003,active,2025-07-19T19:24:45Z
+CRS-000091,Agile Delivery Fundamentals,Project Management,introductory,51,70,2,INS-0041,active,2025-07-23T07:19:04Z
+CRS-000092,Design Systems Applied,UX Design,intermediate,53,60,2,INS-0054,active,2025-05-07T18:39:27Z
+CRS-000093,Serverless Applied,Cloud Computing,intermediate,22,60,2,INS-0014,active,2025-07-30T06:31:14Z
+CRS-000094,Treasury Workshop,Finance,intermediate,11,60,4,INS-0003,active,2025-06-12T04:13:32Z
+CRS-000095,ESG Reporting Essentials 2,Sustainability,introductory,47,60,2,INS-0016,active,2025-05-27T07:29:01Z
+CRS-000096,Neural Networks Masterclass,AI and Machine Learning,advanced,51,55,3,INS-0021,active,2025-08-19T05:44:38Z
+CRS-000097,Predictive Modelling Fundamentals,Data Science,introductory,56,60,3,INS-0034,active,2025-06-20T04:12:35Z
+CRS-000098,API Design Specialist Track,Software Engineering,advanced,58,65,3,INS-0022,active,2025-06-04T16:14:06Z
+CRS-000099,Identity Management Fundamentals,Cybersecurity,introductory,32,70,3,INS-0041,active,2025-06-20T00:15:41Z
+CRS-000100,Decision Models Applied 2,Business Analytics,intermediate,52,65,3,INS-0014,active,2025-05-20T10:53:11Z
+CRS-000101,Search Marketing Essentials,Digital Marketing,introductory,28,60,2,INS-0055,active,2025-07-18T00:30:42Z
+CRS-000102,Interoperability Foundations,Healthcare Informatics,introductory,53,65,3,INS-0054,active,2025-07-31T17:31:28Z
+CRS-000103,Budgeting Fundamentals 2,Project Management,introductory,31,65,2,INS-0022,active,2025-06-08T19:10:15Z
+CRS-000104,Prototyping Workshop,UX Design,intermediate,25,75,2,INS-0012,active,2025-05-19T20:49:54Z
+CRS-000105,Serverless Specialist Track,Cloud Computing,advanced,37,65,3,INS-0058,active,2025-06-26T12:26:43Z
+CRS-000106,Budget Control Applied,Finance,intermediate,33,60,2,INS-0018,active,2025-05-05T23:22:00Z
+CRS-000107,Circular Economy in Practice,Sustainability,intermediate,48,60,2,INS-0060,active,2025-07-15T10:40:29Z
+CRS-000108,Natural Language Fundamentals 2,AI and Machine Learning,introductory,38,70,2,INS-0027,active,2025-06-11T12:12:54Z
+CRS-000109,Statistics Fundamentals,Data Science,introductory,48,60,4,INS-0041,active,2025-07-01T21:32:04Z
+CRS-000110,Testing Practices Specialist Track,Software Engineering,advanced,48,65,4,INS-0004,active,2025-05-26T09:52:23Z
+CRS-000111,Incident Response in Practice,Cybersecurity,intermediate,39,55,2,INS-0021,active,2025-06-21T20:38:29Z
+CRS-000112,Dashboards Fundamentals,Business Analytics,introductory,41,65,4,INS-0031,active,2025-05-05T14:23:59Z
+CRS-000113,Brand Positioning Masterclass,Digital Marketing,advanced,47,65,2,INS-0014,active,2025-07-03T16:52:40Z
+CRS-000114,Privacy in Health Essentials,Healthcare Informatics,introductory,26,75,3,INS-0023,active,2025-05-30T14:46:42Z
+CRS-000115,Budgeting Workshop,Project Management,intermediate,14,70,4,INS-0058,active,2025-07-05T22:01:24Z
+CRS-000116,Accessibility Specialist Track,UX Design,advanced,16,70,3,INS-0050,active,2025-07-07T10:32:04Z
+CRS-000117,Networking Essentials,Cloud Computing,introductory,59,60,3,INS-0052,active,2025-07-06T15:45:30Z
+CRS-000118,Corporate Valuation in Practice,Finance,intermediate,45,70,4,INS-0034,active,2025-06-28T19:57:10Z
+CRS-000119,Carbon Accounting Foundations,Sustainability,introductory,30,65,3,INS-0020,active,2025-05-22T02:46:44Z
+CRS-000120,Evaluation Methods in Practice,AI and Machine Learning,intermediate,60,60,2,INS-0038,active,2025-08-13T18:35:30Z
+CRS-000121,Experiment Design Advanced,Data Science,advanced,23,65,3,INS-0060,active,2025-05-02T11:53:45Z
+CRS-000122,Code Review in Practice,Software Engineering,intermediate,12,65,3,INS-0053,active,2025-08-12T02:06:22Z
+CRS-000123,Threat Modelling Fundamentals,Cybersecurity,introductory,31,70,4,INS-0014,active,2025-08-19T22:38:48Z
+CRS-000124,Customer Segmentation Foundations,Business Analytics,introductory,59,70,3,INS-0042,active,2025-05-20T10:40:54Z
+CRS-000125,Email Campaigns Workshop,Digital Marketing,intermediate,43,60,2,INS-0001,active,2025-06-10T20:20:11Z
+CRS-000126,Medical Coding Masterclass 2,Healthcare Informatics,advanced,43,65,2,INS-0038,active,2025-06-02T05:13:22Z
+CRS-000127,Agile Delivery in Practice,Project Management,intermediate,43,60,3,INS-0041,active,2025-06-07T21:48:40Z
+CRS-000128,Accessibility Masterclass,UX Design,advanced,25,65,3,INS-0043,active,2025-06-11T00:38:59Z
+CRS-000129,Containers Fundamentals,Cloud Computing,introductory,23,65,4,INS-0017,active,2025-08-10T10:02:08Z
+CRS-000130,Treasury in Practice 2,Finance,intermediate,47,65,3,INS-0023,active,2025-08-20T13:25:58Z
+CRS-000131,Sustainable Supply Chains Foundations,Sustainability,introductory,12,75,3,INS-0020,active,2025-06-01T01:56:55Z
+CRS-000132,Model Deployment Applied,AI and Machine Learning,intermediate,28,70,3,INS-0009,active,2025-08-08T16:41:05Z
+CRS-000133,Time Series Essentials,Data Science,introductory,24,55,2,INS-0002,active,2025-07-08T01:19:37Z
+CRS-000134,Python Programming Advanced,Software Engineering,advanced,52,60,2,INS-0010,active,2025-08-18T05:55:58Z
+CRS-000135,Forensics Workshop,Cybersecurity,intermediate,51,70,3,INS-0056,active,2025-08-10T11:53:03Z
+CRS-000136,Dashboards in Practice,Business Analytics,intermediate,22,70,2,INS-0003,active,2025-08-18T08:04:58Z
+CRS-000137,Email Campaigns Masterclass,Digital Marketing,advanced,39,65,3,INS-0031,active,2025-06-20T08:38:01Z
+CRS-000138,Privacy in Health Essentials 2,Healthcare Informatics,introductory,19,60,3,INS-0055,active,2025-08-12T20:21:31Z
+CRS-000139,Risk Management Applied,Project Management,intermediate,52,70,4,INS-0006,active,2025-06-10T19:47:45Z
+CRS-000140,Accessibility Fundamentals,UX Design,introductory,54,60,3,INS-0028,active,2025-06-21T16:51:14Z
+CRS-000141,Cloud Foundations Foundations,Cloud Computing,introductory,24,60,3,INS-0004,active,2025-05-06T18:03:25Z
+CRS-000142,Financial Statements Applied,Finance,intermediate,54,60,3,INS-0053,active,2025-08-19T08:30:21Z
+CRS-000143,Sustainable Supply Chains Foundations 2,Sustainability,introductory,24,55,2,INS-0034,active,2025-06-21T19:38:50Z
+CRS-000144,Neural Networks Foundations,AI and Machine Learning,introductory,33,65,4,INS-0006,active,2025-06-02T02:02:38Z
+CRS-000145,Data Ethics in Practice,Data Science,intermediate,34,60,3,INS-0001,active,2025-06-20T00:16:42Z
+CRS-000146,API Design Advanced,Software Engineering,advanced,10,65,3,INS-0004,active,2025-06-15T19:39:55Z
+CRS-000147,Forensics in Practice,Cybersecurity,intermediate,53,60,3,INS-0032,active,2025-06-27T17:30:25Z
+CRS-000148,Forecasting Fundamentals 2,Business Analytics,introductory,27,60,3,INS-0026,active,2025-07-07T15:26:14Z
+CRS-000149,Audience Research Fundamentals,Digital Marketing,introductory,36,60,3,INS-0012,active,2025-08-08T04:13:13Z
+CRS-000150,Telehealth Systems Masterclass,Healthcare Informatics,advanced,14,70,3,INS-0022,active,2025-07-11T23:11:29Z
+CRS-000151,Scheduling Fundamentals,Project Management,introductory,54,70,2,INS-0055,active,2025-05-14T01:47:21Z
+CRS-000152,Prototyping Essentials,UX Design,introductory,47,65,2,INS-0023,archived,2025-08-12T00:51:20Z
+CRS-000153,Networking Fundamentals,Cloud Computing,introductory,19,70,3,INS-0031,active,2025-05-18T13:44:26Z
+CRS-000154,Regulatory Reporting Essentials,Finance,introductory,9,65,3,INS-0048,active,2025-07-09T13:25:48Z
+CRS-000155,Carbon Accounting Specialist Track,Sustainability,advanced,51,70,4,INS-0010,active,2025-07-14T23:41:49Z
+CRS-000156,Model Deployment Applied 2,AI and Machine Learning,intermediate,34,60,3,INS-0060,active,2025-05-19T23:38:00Z
+CRS-000157,Visualisation in Practice 2,Data Science,intermediate,42,75,3,INS-0006,active,2025-06-01T19:13:00Z
+CRS-000158,Web Development Applied,Software Engineering,intermediate,14,60,2,INS-0041,active,2025-05-31T06:08:19Z
+CRS-000159,Forensics Workshop 2,Cybersecurity,intermediate,50,60,4,INS-0040,active,2025-08-14T17:42:14Z
+CRS-000160,Pricing Analytics Specialist Track,Business Analytics,advanced,41,60,2,INS-0030,active,2025-08-10T06:17:41Z
+CRS-000161,Email Campaigns Fundamentals,Digital Marketing,introductory,39,50,3,INS-0036,active,2025-08-15T14:01:54Z
+CRS-000162,Interoperability Essentials,Healthcare Informatics,introductory,10,70,4,INS-0028,active,2025-07-21T15:19:12Z
+CRS-000163,Stakeholder Communication Workshop 2,Project Management,intermediate,31,55,2,INS-0045,active,2025-05-01T07:38:15Z
+CRS-000164,Service Design Masterclass,UX Design,advanced,59,60,2,INS-0044,active,2025-06-23T14:10:17Z
+CRS-000165,Networking in Practice,Cloud Computing,intermediate,39,60,3,INS-0008,active,2025-05-15T09:55:35Z
+CRS-000166,Financial Statements Fundamentals,Finance,introductory,53,55,2,INS-0046,active,2025-08-01T10:31:55Z
+CRS-000167,ESG Reporting Applied,Sustainability,intermediate,59,60,2,INS-0041,active,2025-07-28T12:44:35Z
+CRS-000168,Model Deployment Applied 3,AI and Machine Learning,intermediate,37,70,2,INS-0061,active,2025-07-27T18:25:13Z
+CRS-000169,SQL Analytics Masterclass,Data Science,advanced,14,60,2,INS-0013,active,2025-08-23T08:29:03Z
+CRS-000170,Version Control Workshop,Software Engineering,intermediate,20,60,2,INS-0009,active,2025-05-29T21:46:55Z
+CRS-000171,Forensics Essentials,Cybersecurity,introductory,15,60,3,INS-0023,active,2025-07-23T20:17:04Z
+CRS-000172,Operations Analytics Essentials,Business Analytics,introductory,37,60,2,INS-0045,active,2025-07-24T17:41:59Z
+CRS-000173,Brand Positioning Essentials,Digital Marketing,introductory,15,65,3,INS-0043,active,2025-05-29T10:46:16Z
+CRS-000174,Population Health Specialist Track,Healthcare Informatics,advanced,38,55,3,INS-0030,active,2025-08-15T09:14:26Z
+CRS-000175,Quality Assurance Applied,Project Management,intermediate,13,60,3,INS-0020,active,2025-08-08T01:22:04Z
+CRS-000176,Interaction Design Applied,UX Design,intermediate,23,60,4,INS-0042,active,2025-06-03T09:15:24Z
+CRS-000177,Cloud Security Applied,Cloud Computing,intermediate,58,60,2,INS-0007,active,2025-07-23T21:06:18Z
+CRS-000178,Audit Basics Fundamentals,Finance,introductory,41,70,2,INS-0015,active,2025-08-23T04:34:22Z
+CRS-000179,Climate Risk Applied,Sustainability,intermediate,48,55,4,INS-0027,archived,2025-07-28T01:07:53Z
+CRS-000180,Model Deployment Fundamentals,AI and Machine Learning,introductory,32,50,2,INS-0016,active,2025-08-01T23:07:44Z
+CRS-000181,SQL Analytics Foundations,Data Science,introductory,13,60,3,INS-0029,active,2025-06-06T16:56:40Z
+CRS-000182,API Design Essentials,Software Engineering,introductory,36,55,2,INS-0059,active,2025-05-29T17:42:07Z
+CRS-000183,Security Governance Workshop,Cybersecurity,intermediate,10,70,4,INS-0048,active,2025-08-11T16:49:57Z
+CRS-000184,Operations Analytics Applied,Business Analytics,intermediate,20,60,3,INS-0051,active,2025-07-07T03:08:45Z
+CRS-000185,Content Strategy Masterclass,Digital Marketing,advanced,11,55,2,INS-0052,active,2025-06-25T06:12:01Z
+CRS-000186,Privacy in Health Fundamentals 2,Healthcare Informatics,introductory,54,65,2,INS-0055,archived,2025-08-17T09:23:31Z
+CRS-000187,Portfolio Management Applied,Project Management,intermediate,24,60,3,INS-0056,active,2025-06-09T19:53:49Z
+CRS-000188,Information Architecture Advanced,UX Design,advanced,28,60,2,INS-0059,active,2025-07-05T03:24:04Z
+CRS-000189,Infrastructure as Code in Practice,Cloud Computing,intermediate,39,60,2,INS-0061,active,2025-06-26T13:49:41Z
+CRS-000190,Budget Control Fundamentals 2,Finance,introductory,50,50,2,INS-0056,active,2025-07-11T17:51:21Z
+CRS-000191,Policy Analysis Foundations,Sustainability,introductory,37,75,4,INS-0020,active,2025-05-20T20:58:26Z
+CRS-000192,Machine Learning Fundamentals,AI and Machine Learning,introductory,10,60,4,INS-0002,active,2025-07-10T02:44:58Z
+CRS-000193,SQL Analytics Applied,Data Science,intermediate,57,70,3,INS-0031,archived,2025-08-06T19:04:30Z
+CRS-000194,Web Development in Practice,Software Engineering,intermediate,20,60,4,INS-0021,active,2025-05-23T09:26:16Z
+CRS-000195,Identity Management Foundations,Cybersecurity,introductory,10,70,4,INS-0031,active,2025-06-18T18:31:05Z
+CRS-000196,Customer Segmentation Fundamentals,Business Analytics,introductory,19,55,2,INS-0018,active,2025-07-23T11:08:05Z
+CRS-000197,Social Analytics Workshop 2,Digital Marketing,intermediate,56,65,4,INS-0013,active,2025-05-20T06:26:48Z
+CRS-000198,Privacy in Health in Practice,Healthcare Informatics,intermediate,14,70,4,INS-0058,archived,2025-07-29T20:49:42Z
+CRS-000199,Scheduling Applied,Project Management,intermediate,9,70,3,INS-0002,active,2025-06-20T23:04:22Z
+CRS-000200,User Research Essentials,UX Design,introductory,34,65,4,INS-0011,active,2025-07-26T12:58:51Z
+CRS-000201,Infrastructure as Code Essentials,Cloud Computing,introductory,53,65,3,INS-0039,active,2025-06-18T17:58:53Z
+CRS-000202,Risk Analytics Essentials,Finance,introductory,44,60,3,INS-0020,active,2025-07-01T17:20:36Z
+CRS-000203,Resource Planning Foundations,Sustainability,introductory,52,65,2,INS-0009,active,2025-06-25T20:14:44Z
+CRS-000204,Computer Vision in Practice,AI and Machine Learning,intermediate,50,70,4,INS-0014,active,2025-08-23T22:38:18Z
+CRS-000205,Data Ethics Fundamentals,Data Science,introductory,36,60,2,INS-0047,active,2025-05-11T23:57:50Z
+CRS-000206,API Design Workshop,Software Engineering,intermediate,11,65,2,INS-0020,active,2025-07-05T21:58:03Z
+CRS-000207,Secure Coding Foundations,Cybersecurity,introductory,42,60,3,INS-0030,active,2025-07-13T12:02:39Z
+CRS-000208,Decision Models Essentials 2,Business Analytics,introductory,43,75,3,INS-0031,active,2025-06-04T12:10:26Z
+CRS-000209,Social Analytics Workshop 3,Digital Marketing,intermediate,18,70,2,INS-0026,active,2025-06-02T10:07:09Z
+CRS-000210,Privacy in Health Foundations,Healthcare Informatics,introductory,8,60,3,INS-0001,active,2025-08-24T12:54:58Z
+CRS-000211,Stakeholder Communication Applied,Project Management,intermediate,49,75,3,INS-0054,active,2025-07-28T10:34:31Z
+CRS-000212,Prototyping Advanced,UX Design,advanced,60,60,2,INS-0026,active,2025-08-12T04:41:26Z
+CRS-000213,Cost Management Essentials,Cloud Computing,introductory,44,55,3,INS-0028,active,2025-06-03T17:45:57Z
+CRS-000214,Audit Basics Fundamentals 2,Finance,introductory,22,50,3,INS-0045,active,2025-05-10T03:14:28Z
+CRS-000215,Circular Economy Applied,Sustainability,intermediate,8,70,3,INS-0045,active,2025-07-02T20:24:34Z
+CRS-000216,Neural Networks Fundamentals,AI and Machine Learning,introductory,43,65,2,INS-0056,active,2025-05-14T11:42:56Z
+CRS-000217,Data Ethics Masterclass,Data Science,advanced,34,75,4,INS-0042,active,2025-07-04T15:07:04Z
+CRS-000218,Python Programming Foundations,Software Engineering,introductory,33,70,2,INS-0057,active,2025-07-30T22:44:37Z
+CRS-000219,Security Governance Applied,Cybersecurity,intermediate,53,60,2,INS-0021,active,2025-06-24T19:48:22Z
+CRS-000220,Reporting Standards Essentials,Business Analytics,introductory,37,70,3,INS-0058,active,2025-08-23T20:55:30Z
+CRS-000221,Audience Research in Practice 2,Digital Marketing,intermediate,35,60,3,INS-0032,active,2025-05-04T04:17:14Z
+CRS-000222,Clinical Data Essentials,Healthcare Informatics,introductory,40,65,2,INS-0042,active,2025-08-13T17:01:42Z
+CRS-000223,Risk Management Advanced,Project Management,advanced,48,70,3,INS-0036,active,2025-07-11T18:54:31Z
+CRS-000224,Accessibility Essentials,UX Design,introductory,27,70,3,INS-0049,active,2025-07-03T03:02:29Z
+CRS-000225,Cost Management Essentials 2,Cloud Computing,introductory,43,75,2,INS-0028,active,2025-05-11T04:48:46Z
+CRS-000226,Treasury Specialist Track,Finance,advanced,26,65,2,INS-0009,active,2025-05-15T07:53:06Z
+CRS-000227,Resource Planning Advanced,Sustainability,advanced,45,55,3,INS-0032,active,2025-08-29T18:34:31Z
+CRS-000228,Evaluation Methods Fundamentals,AI and Machine Learning,introductory,56,65,4,INS-0046,active,2025-08-25T13:00:50Z
+CRS-000229,Data Ethics Foundations,Data Science,introductory,50,65,4,INS-0034,active,2025-08-16T01:30:01Z
+CRS-000230,Code Review Fundamentals,Software Engineering,introductory,39,60,3,INS-0048,active,2025-05-18T01:27:47Z
+CRS-000231,Network Defence Masterclass,Cybersecurity,advanced,27,70,2,INS-0028,active,2025-06-06T17:10:33Z
+CRS-000232,Forecasting in Practice,Business Analytics,intermediate,20,75,3,INS-0043,active,2025-05-12T18:08:57Z
+CRS-000233,Search Marketing Fundamentals,Digital Marketing,introductory,56,60,4,INS-0052,active,2025-05-18T20:59:01Z
+CRS-000234,Interoperability Foundations 2,Healthcare Informatics,introductory,49,65,4,INS-0005,archived,2025-05-04T01:19:22Z
+CRS-000235,Budgeting in Practice,Project Management,intermediate,22,60,3,INS-0008,active,2025-07-02T14:04:07Z
+CRS-000236,Accessibility Fundamentals 2,UX Design,introductory,58,60,3,INS-0022,active,2025-05-01T19:22:46Z
+CRS-000237,Monitoring Workshop,Cloud Computing,intermediate,15,65,2,INS-0057,active,2025-08-18T10:03:20Z
+CRS-000238,Regulatory Reporting Advanced,Finance,advanced,50,65,2,INS-0039,active,2025-06-18T06:41:08Z
+CRS-000239,Carbon Accounting Workshop 2,Sustainability,intermediate,51,65,3,INS-0008,active,2025-08-17T14:51:08Z
+CRS-000240,Feature Engineering Fundamentals,AI and Machine Learning,introductory,31,60,3,INS-0049,active,2025-05-19T20:28:54Z
+CRS-000241,Experiment Design in Practice 2,Data Science,intermediate,29,70,3,INS-0059,active,2025-07-08T15:46:21Z
+CRS-000242,Code Review Masterclass,Software Engineering,advanced,23,60,3,INS-0051,active,2025-05-17T21:01:29Z
+CRS-000243,Network Defence Fundamentals 3,Cybersecurity,introductory,20,75,3,INS-0013,active,2025-06-30T00:17:09Z
+CRS-000244,KPI Design Foundations,Business Analytics,introductory,52,65,3,INS-0002,active,2025-06-29T07:03:36Z
+CRS-000245,Audience Research Fundamentals 2,Digital Marketing,introductory,8,60,3,INS-0041,active,2025-06-20T21:27:31Z
+CRS-000246,Medical Coding Applied,Healthcare Informatics,intermediate,54,70,3,INS-0045,active,2025-07-11T02:02:23Z
+CRS-000247,Stakeholder Communication Essentials,Project Management,introductory,51,60,3,INS-0045,active,2025-05-22T01:32:52Z
+CRS-000248,Design Systems in Practice,UX Design,intermediate,50,55,2,INS-0014,active,2025-08-01T17:50:45Z
+CRS-000249,Serverless Applied 2,Cloud Computing,intermediate,39,60,4,INS-0027,active,2025-08-29T17:29:43Z
+CRS-000250,Corporate Valuation Essentials,Finance,introductory,10,65,3,INS-0004,active,2025-08-14T13:35:34Z
+CRS-000251,Policy Analysis Masterclass,Sustainability,advanced,14,60,3,INS-0008,active,2025-06-02T23:46:49Z
+CRS-000252,Responsible AI Specialist Track,AI and Machine Learning,advanced,41,70,2,INS-0016,active,2025-05-30T05:50:41Z
+CRS-000253,Experiment Design Advanced 2,Data Science,advanced,49,60,3,INS-0011,active,2025-07-24T11:49:15Z
+CRS-000254,API Design Masterclass 2,Software Engineering,advanced,39,50,3,INS-0038,active,2025-08-26T11:55:28Z
+CRS-000255,Forensics Applied,Cybersecurity,intermediate,21,60,3,INS-0023,active,2025-07-26T21:42:47Z
+CRS-000256,Customer Segmentation Advanced,Business Analytics,advanced,11,65,3,INS-0054,active,2025-06-21T09:23:49Z
+CRS-000257,Content Strategy Advanced 2,Digital Marketing,advanced,17,60,3,INS-0009,active,2025-07-28T10:56:03Z
+CRS-000258,Telehealth Systems Essentials,Healthcare Informatics,introductory,36,60,3,INS-0019,active,2025-08-10T21:23:52Z
+CRS-000259,Quality Assurance Essentials,Project Management,introductory,28,60,3,INS-0037,active,2025-06-25T17:12:10Z
+CRS-000260,User Research Applied,UX Design,intermediate,51,60,2,INS-0020,active,2025-07-12T22:58:32Z
+CRS-000261,Infrastructure as Code Fundamentals 2,Cloud Computing,introductory,14,60,3,INS-0050,active,2025-08-02T04:36:51Z
+CRS-000262,Investment Analysis Applied,Finance,intermediate,30,60,4,INS-0059,active,2025-08-07T08:58:59Z
+CRS-000263,ESG Reporting Fundamentals,Sustainability,introductory,40,60,4,INS-0034,archived,2025-06-07T09:34:30Z
+CRS-000264,Computer Vision Masterclass,AI and Machine Learning,advanced,30,70,3,INS-0051,active,2025-06-21T09:42:42Z
+CRS-000265,Data Ethics Applied,Data Science,intermediate,27,70,3,INS-0021,active,2025-07-10T04:35:35Z
+CRS-000266,Python Programming Applied,Software Engineering,intermediate,31,55,3,INS-0057,active,2025-05-02T01:15:36Z
+CRS-000267,Incident Response Essentials 2,Cybersecurity,introductory,23,60,3,INS-0020,active,2025-07-30T09:42:16Z
+CRS-000268,Forecasting Workshop 2,Business Analytics,intermediate,49,60,2,INS-0022,active,2025-05-30T23:25:34Z
+CRS-000269,Search Marketing Applied 2,Digital Marketing,intermediate,21,65,2,INS-0055,active,2025-05-23T21:03:30Z
+CRS-000270,Population Health Applied,Healthcare Informatics,intermediate,11,60,3,INS-0008,active,2025-05-13T22:01:58Z
+CRS-000271,Risk Management Fundamentals,Project Management,introductory,16,65,3,INS-0055,active,2025-05-09T08:24:28Z
+CRS-000272,Interaction Design Essentials,UX Design,introductory,27,60,3,INS-0054,active,2025-08-13T13:12:06Z
+CRS-000273,Infrastructure as Code Essentials 2,Cloud Computing,introductory,49,55,2,INS-0005,active,2025-05-17T04:36:35Z
+CRS-000274,Treasury Specialist Track 2,Finance,advanced,39,65,3,INS-0020,active,2025-06-15T14:48:08Z
+CRS-000275,Sustainable Supply Chains in Practice,Sustainability,intermediate,59,55,3,INS-0037,active,2025-08-10T09:12:56Z
+CRS-000276,Machine Learning Specialist Track,AI and Machine Learning,advanced,50,50,3,INS-0026,active,2025-08-08T12:42:06Z
+CRS-000277,Data Ethics Masterclass 2,Data Science,advanced,56,65,4,INS-0037,active,2025-06-05T01:53:35Z
+CRS-000278,Web Development Masterclass,Software Engineering,advanced,12,70,2,INS-0004,active,2025-07-24T08:48:44Z
+CRS-000279,Network Defence Fundamentals 4,Cybersecurity,introductory,60,70,2,INS-0061,active,2025-06-07T23:19:12Z
+CRS-000280,Decision Models in Practice,Business Analytics,intermediate,25,75,2,INS-0037,archived,2025-05-26T06:50:38Z
+CRS-000281,Content Strategy Applied,Digital Marketing,intermediate,30,70,3,INS-0046,active,2025-05-02T21:30:42Z
+CRS-000282,Population Health Fundamentals,Healthcare Informatics,introductory,13,65,2,INS-0048,active,2025-07-07T04:06:54Z
+CRS-000283,Agile Delivery Applied,Project Management,intermediate,23,70,3,INS-0049,active,2025-08-02T14:49:35Z
+CRS-000284,Prototyping in Practice,UX Design,intermediate,26,60,4,INS-0032,active,2025-08-18T00:26:37Z
+CRS-000285,Containers Essentials,Cloud Computing,introductory,45,60,4,INS-0029,active,2025-06-18T03:24:24Z
+CRS-000286,Budget Control Workshop,Finance,intermediate,11,50,2,INS-0020,active,2025-06-29T08:06:50Z
+CRS-000287,Energy Systems Masterclass,Sustainability,advanced,23,60,2,INS-0007,active,2025-05-31T02:48:42Z
+CRS-000288,Machine Learning Fundamentals 2,AI and Machine Learning,introductory,22,60,2,INS-0038,active,2025-05-06T07:21:45Z
+CRS-000289,Data Wrangling Foundations,Data Science,introductory,34,65,3,INS-0012,active,2025-06-23T05:58:16Z
+CRS-000290,API Design Masterclass 3,Software Engineering,advanced,34,70,3,INS-0026,active,2025-06-04T17:30:38Z
+CRS-000291,Cryptography Basics Masterclass,Cybersecurity,advanced,30,60,2,INS-0028,active,2025-06-15T05:44:40Z
+CRS-000292,Customer Segmentation Advanced 2,Business Analytics,advanced,44,70,4,INS-0051,active,2025-05-03T18:01:35Z
+CRS-000293,Social Analytics Workshop 4,Digital Marketing,intermediate,48,65,3,INS-0056,active,2025-06-11T00:15:13Z
+CRS-000294,Medical Coding Applied 2,Healthcare Informatics,intermediate,12,60,4,INS-0058,active,2025-07-30T16:17:53Z
+CRS-000295,Scheduling in Practice 2,Project Management,intermediate,27,65,3,INS-0013,active,2025-05-12T13:50:25Z
+CRS-000296,User Research in Practice,UX Design,intermediate,40,55,2,INS-0046,active,2025-05-17T13:29:54Z
+CRS-000297,Cost Management Foundations,Cloud Computing,introductory,51,60,2,INS-0037,active,2025-06-02T18:03:09Z
+CRS-000298,Corporate Valuation Workshop,Finance,intermediate,34,70,2,INS-0020,active,2025-05-03T07:15:13Z
+CRS-000299,Policy Analysis Fundamentals 2,Sustainability,introductory,55,70,3,INS-0034,active,2025-07-17T06:44:00Z
+CRS-000300,Evaluation Methods Foundations 2,AI and Machine Learning,introductory,34,55,3,INS-0044,active,2025-05-18T18:17:10Z
+CRS-000301,Predictive Modelling Applied,Data Science,intermediate,11,65,4,INS-0029,archived,2025-06-24T12:19:33Z
+CRS-000302,Databases Workshop,Software Engineering,intermediate,50,60,3,INS-0028,active,2025-07-30T13:00:34Z
+CRS-000303,Identity Management Foundations 2,Cybersecurity,introductory,43,70,2,INS-0056,active,2025-07-31T04:00:03Z
+CRS-000304,Reporting Standards in Practice,Business Analytics,intermediate,35,65,3,INS-0034,active,2025-07-02T00:53:03Z
+CRS-000305,Search Marketing Workshop,Digital Marketing,intermediate,18,60,2,INS-0038,active,2025-06-08T02:54:32Z
+CRS-000306,Population Health Advanced,Healthcare Informatics,advanced,42,65,2,INS-0010,archived,2025-06-20T08:14:13Z
+CRS-000307,Agile Delivery Advanced,Project Management,advanced,14,65,3,INS-0062,active,2025-05-15T11:00:01Z
+CRS-000308,User Research in Practice 2,UX Design,intermediate,42,70,2,INS-0048,active,2025-05-09T22:29:14Z
+CRS-000309,Cloud Security Masterclass,Cloud Computing,advanced,46,70,3,INS-0041,active,2025-07-29T17:13:08Z
+CRS-000310,Financial Statements Workshop,Finance,intermediate,19,70,3,INS-0018,active,2025-05-14T23:17:42Z
+CRS-000311,Circular Economy Masterclass,Sustainability,advanced,36,60,3,INS-0017,active,2025-08-13T06:04:38Z
+CRS-000312,Natural Language in Practice,AI and Machine Learning,intermediate,21,55,2,INS-0057,active,2025-07-07T04:24:17Z
+CRS-000313,Data Wrangling Foundations 2,Data Science,introductory,43,70,2,INS-0060,active,2025-05-23T01:52:42Z
+CRS-000314,Python Programming Specialist Track,Software Engineering,advanced,25,60,2,INS-0036,active,2025-07-24T18:40:07Z
+CRS-000315,Identity Management Foundations 3,Cybersecurity,introductory,46,60,3,INS-0050,active,2025-07-08T05:09:22Z
+CRS-000316,KPI Design Applied,Business Analytics,intermediate,57,60,3,INS-0043,active,2025-07-17T14:45:28Z
+CRS-000317,Audience Research Workshop,Digital Marketing,intermediate,54,70,3,INS-0051,active,2025-08-05T00:46:26Z
+CRS-000318,Medical Coding in Practice,Healthcare Informatics,intermediate,25,60,2,INS-0055,active,2025-08-14T12:36:05Z
+CRS-000319,Budgeting Foundations,Project Management,introductory,41,55,2,INS-0027,active,2025-08-20T16:38:27Z
+CRS-000320,Interaction Design in Practice,UX Design,intermediate,33,70,3,INS-0005,active,2025-08-12T22:16:36Z
+CRS-000321,Cloud Foundations Fundamentals,Cloud Computing,introductory,37,75,2,INS-0034,archived,2025-07-27T05:11:53Z
+CRS-000322,Investment Analysis Foundations,Finance,introductory,56,75,3,INS-0036,active,2025-06-27T05:21:46Z
+CRS-000323,Carbon Accounting Workshop 3,Sustainability,intermediate,25,75,2,INS-0054,active,2025-05-25T00:57:43Z
+CRS-000324,Machine Learning Workshop,AI and Machine Learning,intermediate,10,60,4,INS-0020,active,2025-08-08T03:21:53Z
+CRS-000325,Time Series Foundations,Data Science,introductory,46,60,3,INS-0034,active,2025-07-04T00:16:59Z
+CRS-000326,Python Programming Essentials 2,Software Engineering,introductory,16,60,2,INS-0020,archived,2025-06-19T12:16:26Z
+CRS-000327,Threat Modelling Foundations,Cybersecurity,introductory,53,60,2,INS-0021,active,2025-05-21T18:43:54Z
+CRS-000328,Pricing Analytics Foundations,Business Analytics,introductory,24,65,2,INS-0013,active,2025-06-02T03:18:05Z
+CRS-000329,Brand Positioning Masterclass 2,Digital Marketing,advanced,28,70,2,INS-0036,active,2025-07-27T16:15:51Z
+CRS-000330,Privacy in Health in Practice 2,Healthcare Informatics,intermediate,23,70,3,INS-0028,active,2025-07-22T10:41:19Z
+CRS-000331,Portfolio Management Essentials,Project Management,introductory,32,60,4,INS-0024,active,2025-08-11T04:50:18Z
+CRS-000332,Service Design Foundations,UX Design,introductory,12,55,3,INS-0033,active,2025-07-02T10:17:17Z
+CRS-000333,Infrastructure as Code Foundations,Cloud Computing,introductory,19,75,3,INS-0028,active,2025-07-30T11:05:28Z
+CRS-000334,Audit Basics Fundamentals 3,Finance,introductory,22,65,2,INS-0001,active,2025-07-19T01:11:45Z
+CRS-000335,Climate Risk Applied 2,Sustainability,intermediate,34,60,3,INS-0062,active,2025-06-03T20:34:46Z
+CRS-000336,Natural Language Workshop,AI and Machine Learning,intermediate,24,55,3,INS-0022,active,2025-08-21T10:26:55Z
+CRS-000337,Experiment Design Applied,Data Science,intermediate,16,60,3,INS-0010,active,2025-06-23T22:51:39Z
+CRS-000338,Algorithms Applied,Software Engineering,intermediate,16,60,4,INS-0016,active,2025-05-29T07:42:35Z
+CRS-000339,Secure Coding Masterclass,Cybersecurity,advanced,53,60,3,INS-0050,active,2025-05-16T08:34:40Z
+CRS-000340,Operations Analytics Foundations,Business Analytics,introductory,42,60,3,INS-0040,active,2025-05-30T06:32:31Z
+CRS-000341,Brand Positioning Foundations,Digital Marketing,introductory,35,60,2,INS-0028,active,2025-07-06T13:42:45Z
+CRS-000342,Privacy in Health Masterclass 2,Healthcare Informatics,advanced,59,70,3,INS-0029,active,2025-08-07T11:43:48Z
+CRS-000343,Budgeting Applied 2,Project Management,intermediate,48,55,3,INS-0038,active,2025-08-19T03:13:28Z
+CRS-000344,Information Architecture Advanced 2,UX Design,advanced,27,65,2,INS-0026,active,2025-06-06T03:14:30Z
+CRS-000345,Infrastructure as Code Workshop,Cloud Computing,intermediate,22,65,3,INS-0040,active,2025-05-25T08:05:48Z
+CRS-000346,Risk Analytics Foundations 2,Finance,introductory,32,55,3,INS-0057,active,2025-06-29T14:34:25Z
+CRS-000347,Climate Risk Applied 3,Sustainability,intermediate,15,70,2,INS-0047,active,2025-08-28T15:47:21Z
+CRS-000348,Responsible AI Advanced,AI and Machine Learning,advanced,57,65,2,INS-0012,active,2025-07-02T14:58:52Z
+CRS-000349,Data Ethics in Practice 2,Data Science,intermediate,31,60,3,INS-0010,active,2025-07-04T20:30:22Z
+CRS-000350,API Design Foundations,Software Engineering,introductory,24,70,3,INS-0018,active,2025-06-23T05:54:35Z
+CRS-000351,Threat Modelling in Practice 2,Cybersecurity,intermediate,35,70,3,INS-0043,active,2025-05-30T01:37:22Z
+CRS-000352,Decision Models Applied 3,Business Analytics,intermediate,60,70,3,INS-0019,active,2025-06-09T02:43:59Z
+CRS-000353,Search Marketing in Practice,Digital Marketing,intermediate,55,65,3,INS-0035,active,2025-07-26T01:07:56Z
+CRS-000354,Telehealth Systems Essentials 2,Healthcare Informatics,introductory,31,75,4,INS-0058,active,2025-05-05T02:07:04Z
+CRS-000355,Portfolio Management Applied 2,Project Management,intermediate,59,65,4,INS-0038,active,2025-08-04T17:27:03Z
+CRS-000356,Design Systems Workshop,UX Design,intermediate,59,65,3,INS-0057,archived,2025-06-04T12:25:32Z
+CRS-000357,Serverless Masterclass,Cloud Computing,advanced,36,60,4,INS-0010,active,2025-05-14T05:12:29Z
+CRS-000358,Financial Statements Workshop 2,Finance,intermediate,30,60,3,INS-0030,active,2025-07-29T21:58:40Z
+CRS-000359,Resource Planning in Practice,Sustainability,intermediate,23,65,3,INS-0009,active,2025-06-15T02:39:59Z
+CRS-000360,Model Deployment Masterclass,AI and Machine Learning,advanced,34,70,4,INS-0054,active,2025-08-01T20:48:13Z
+CRS-000361,Data Wrangling Essentials,Data Science,introductory,19,60,3,INS-0053,active,2025-05-30T06:28:13Z
+CRS-000362,Web Development Essentials,Software Engineering,introductory,25,55,3,INS-0016,active,2025-08-11T14:44:12Z
+CRS-000363,Identity Management Fundamentals 2,Cybersecurity,introductory,48,65,2,INS-0005,active,2025-07-03T07:56:11Z
+CRS-000364,Dashboards Fundamentals 2,Business Analytics,introductory,10,70,3,INS-0030,active,2025-07-07T16:45:36Z
+CRS-000365,Brand Positioning Workshop,Digital Marketing,intermediate,19,60,3,INS-0014,active,2025-06-04T13:47:28Z
+CRS-000366,Medical Coding in Practice 2,Healthcare Informatics,intermediate,32,60,3,INS-0022,active,2025-05-25T08:27:03Z
+CRS-000367,Stakeholder Communication Workshop 3,Project Management,intermediate,35,60,3,INS-0055,archived,2025-08-29T14:49:50Z
+CRS-000368,Service Design Applied,UX Design,intermediate,24,55,2,INS-0018,active,2025-06-24T08:22:24Z
+CRS-000369,Infrastructure as Code Specialist Track,Cloud Computing,advanced,42,60,2,INS-0038,active,2025-08-08T18:18:47Z
+CRS-000370,Budget Control Applied 2,Finance,intermediate,48,50,3,INS-0009,active,2025-05-26T17:06:48Z
+CRS-000371,Circular Economy Specialist Track,Sustainability,advanced,58,55,4,INS-0036,active,2025-05-15T06:46:28Z
+CRS-000372,Neural Networks Masterclass 2,AI and Machine Learning,advanced,36,75,4,INS-0045,active,2025-07-19T23:16:06Z
+CRS-000373,Data Ethics Essentials,Data Science,introductory,40,60,2,INS-0023,active,2025-05-06T21:48:53Z
+CRS-000374,Python Programming Workshop,Software Engineering,intermediate,45,65,3,INS-0024,active,2025-07-01T05:33:01Z
+CRS-000375,Identity Management Essentials,Cybersecurity,introductory,35,70,3,INS-0053,active,2025-08-06T22:21:29Z
+CRS-000376,Pricing Analytics Masterclass,Business Analytics,advanced,38,60,2,INS-0017,archived,2025-05-01T21:43:49Z
+CRS-000377,Marketing Automation in Practice,Digital Marketing,intermediate,43,65,3,INS-0044,active,2025-06-15T22:08:04Z
+CRS-000378,Interoperability Fundamentals,Healthcare Informatics,introductory,25,75,3,INS-0031,active,2025-05-13T12:34:33Z
+CRS-000379,Agile Delivery Workshop,Project Management,intermediate,9,70,2,INS-0023,active,2025-05-12T09:05:58Z
+CRS-000380,Prototyping Essentials 2,UX Design,introductory,11,65,2,INS-0045,archived,2025-07-14T13:27:13Z
+CRS-000381,Cost Management Advanced,Cloud Computing,advanced,17,60,2,INS-0033,active,2025-06-18T08:05:42Z
+CRS-000382,Investment Analysis Workshop,Finance,intermediate,20,65,2,INS-0026,active,2025-08-01T14:44:28Z
+CRS-000383,Circular Economy in Practice 2,Sustainability,intermediate,43,65,3,INS-0057,active,2025-08-18T01:58:08Z
+CRS-000384,Feature Engineering Workshop,AI and Machine Learning,intermediate,57,60,2,INS-0028,active,2025-06-13T10:01:55Z
+CRS-000385,Visualisation Foundations,Data Science,introductory,21,75,3,INS-0034,active,2025-08-24T07:29:57Z
+CRS-000386,Code Review Essentials,Software Engineering,introductory,32,60,3,INS-0029,active,2025-08-20T09:35:20Z
+CRS-000387,Network Defence Applied,Cybersecurity,intermediate,8,70,2,INS-0018,active,2025-07-09T19:01:32Z
+CRS-000388,Dashboards Workshop,Business Analytics,intermediate,17,50,2,INS-0002,active,2025-06-09T03:17:07Z
+CRS-000389,Social Analytics Masterclass,Digital Marketing,advanced,19,55,3,INS-0052,active,2025-06-19T10:23:13Z
+CRS-000390,Medical Coding Applied 3,Healthcare Informatics,intermediate,26,60,3,INS-0008,active,2025-06-03T01:43:22Z
+CRS-000391,Agile Delivery Essentials,Project Management,introductory,35,75,4,INS-0051,active,2025-06-08T18:12:18Z
+CRS-000392,User Research Advanced,UX Design,advanced,18,65,3,INS-0029,active,2025-05-25T01:17:35Z
+CRS-000393,Cost Management Workshop,Cloud Computing,intermediate,54,60,3,INS-0018,active,2025-06-26T04:04:12Z
+CRS-000394,Risk Analytics Essentials 2,Finance,introductory,17,60,3,INS-0014,active,2025-05-07T19:28:25Z
+CRS-000395,Sustainable Supply Chains Specialist Track,Sustainability,advanced,26,65,2,INS-0054,active,2025-05-30T20:47:19Z
+CRS-000396,Neural Networks Workshop,AI and Machine Learning,intermediate,57,60,4,INS-0058,active,2025-05-03T07:09:31Z
+CRS-000397,Time Series Fundamentals,Data Science,introductory,49,65,2,INS-0056,active,2025-07-17T19:42:40Z
+CRS-000398,Web Development in Practice 2,Software Engineering,intermediate,38,75,3,INS-0019,active,2025-07-06T04:54:50Z
+CRS-000399,Threat Modelling Masterclass,Cybersecurity,advanced,54,55,4,INS-0060,active,2025-05-18T03:37:23Z
+CRS-000400,Reporting Standards Masterclass,Business Analytics,advanced,31,65,2,INS-0035,active,2025-07-05T07:31:45Z
+CRS-000401,Social Analytics Advanced,Digital Marketing,advanced,10,60,4,INS-0022,active,2025-05-03T19:14:30Z
+CRS-000402,Quality Metrics Applied,Healthcare Informatics,intermediate,39,55,3,INS-0029,active,2025-06-12T18:31:29Z
+CRS-000403,Quality Assurance in Practice,Project Management,intermediate,12,60,4,INS-0009,active,2025-07-23T08:51:06Z
+CRS-000404,Information Architecture Foundations,UX Design,introductory,33,60,2,INS-0025,active,2025-06-26T08:47:17Z
+CRS-000405,Cloud Foundations Fundamentals 2,Cloud Computing,introductory,23,60,2,INS-0023,active,2025-07-24T14:33:31Z
+CRS-000406,Financial Statements in Practice 2,Finance,intermediate,28,60,3,INS-0009,active,2025-07-30T06:38:00Z
+CRS-000407,ESG Reporting Essentials 3,Sustainability,introductory,11,60,3,INS-0052,active,2025-08-28T04:04:24Z
+CRS-000408,Responsible AI Fundamentals,AI and Machine Learning,introductory,34,75,2,INS-0024,archived,2025-05-09T19:52:24Z
+CRS-000409,Time Series in Practice,Data Science,intermediate,50,65,3,INS-0030,active,2025-06-07T02:17:59Z
+CRS-000410,Version Control Essentials,Software Engineering,introductory,46,60,3,INS-0048,active,2025-06-30T07:17:58Z
+CRS-000411,Secure Coding Applied,Cybersecurity,intermediate,39,70,2,INS-0003,active,2025-08-24T10:15:25Z
+CRS-000412,Decision Models Advanced,Business Analytics,advanced,57,75,2,INS-0030,active,2025-06-07T04:02:42Z
+CRS-000413,Email Campaigns Applied,Digital Marketing,intermediate,8,65,2,INS-0051,active,2025-07-19T18:07:43Z
+CRS-000414,Health Records Applied,Healthcare Informatics,intermediate,33,65,4,INS-0047,active,2025-07-23T06:00:45Z
+CRS-000415,Planning Foundations,Project Management,introductory,28,75,4,INS-0051,active,2025-05-31T12:37:15Z
+CRS-000416,Usability Testing Applied 2,UX Design,intermediate,40,70,2,INS-0057,active,2025-05-23T10:25:11Z
+CRS-000417,Cloud Foundations Workshop,Cloud Computing,intermediate,34,70,2,INS-0040,active,2025-07-05T17:33:49Z
+CRS-000418,Audit Basics Workshop,Finance,intermediate,19,65,2,INS-0007,active,2025-07-20T05:38:33Z
+CRS-000419,Policy Analysis in Practice,Sustainability,intermediate,25,75,2,INS-0052,active,2025-08-15T11:24:21Z
+CRS-000420,Evaluation Methods Fundamentals 2,AI and Machine Learning,introductory,46,60,4,INS-0013,active,2025-06-17T22:05:15Z
+CRS-000421,Predictive Modelling Foundations 2,Data Science,introductory,40,60,2,INS-0049,active,2025-06-25T13:59:42Z
+CRS-000422,Algorithms Fundamentals,Software Engineering,introductory,53,75,3,INS-0058,active,2025-06-19T14:06:58Z
+CRS-000423,Security Governance Applied 2,Cybersecurity,intermediate,14,75,3,INS-0036,active,2025-08-05T05:57:06Z
+CRS-000424,Decision Models Masterclass,Business Analytics,advanced,9,60,2,INS-0045,active,2025-08-17T19:33:53Z
+CRS-000425,Search Marketing Foundations,Digital Marketing,introductory,8,65,3,INS-0022,active,2025-08-19T00:58:40Z
+CRS-000426,Health Records in Practice,Healthcare Informatics,intermediate,8,70,4,INS-0014,active,2025-08-14T21:04:13Z
+CRS-000427,Planning Essentials,Project Management,introductory,43,75,4,INS-0040,active,2025-07-09T07:35:38Z
+CRS-000428,Information Architecture Essentials,UX Design,introductory,48,55,3,INS-0015,active,2025-08-08T10:03:43Z
+CRS-000429,Cloud Security Advanced,Cloud Computing,advanced,13,75,2,INS-0002,active,2025-06-21T03:54:34Z
+CRS-000430,Risk Analytics Masterclass,Finance,advanced,45,65,3,INS-0050,active,2025-05-08T01:12:35Z
+CRS-000431,Carbon Accounting Specialist Track 2,Sustainability,advanced,40,60,2,INS-0001,active,2025-06-07T16:32:23Z
+CRS-000432,Model Deployment Essentials,AI and Machine Learning,introductory,26,60,4,INS-0045,active,2025-05-01T01:21:19Z
+CRS-000433,Statistics Fundamentals 2,Data Science,introductory,24,60,2,INS-0022,active,2025-07-19T13:23:15Z
+CRS-000434,Web Development Advanced,Software Engineering,advanced,49,55,2,INS-0025,active,2025-05-30T11:33:16Z
+CRS-000435,Network Defence in Practice 2,Cybersecurity,intermediate,36,60,3,INS-0005,active,2025-07-08T16:52:52Z
+CRS-000436,Operations Analytics Essentials 2,Business Analytics,introductory,22,75,3,INS-0001,active,2025-05-02T10:01:06Z
+CRS-000437,Marketing Automation Advanced,Digital Marketing,advanced,13,60,3,INS-0022,active,2025-08-18T12:34:03Z
+CRS-000438,Privacy in Health Applied,Healthcare Informatics,intermediate,43,60,2,INS-0042,active,2025-08-14T14:54:49Z
+CRS-000439,Quality Assurance Fundamentals,Project Management,introductory,30,75,3,INS-0018,active,2025-05-23T20:30:06Z
+CRS-000440,Prototyping Workshop 2,UX Design,intermediate,35,65,3,INS-0050,active,2025-06-20T07:14:06Z
+CRS-000441,Networking Fundamentals 2,Cloud Computing,introductory,22,55,3,INS-0004,active,2025-08-17T14:30:33Z
+CRS-000442,Audit Basics Essentials,Finance,introductory,36,65,2,INS-0026,active,2025-07-31T19:28:08Z
+CRS-000443,Sustainable Supply Chains Applied,Sustainability,intermediate,12,65,2,INS-0042,active,2025-07-24T20:10:38Z
+CRS-000444,Natural Language Fundamentals 3,AI and Machine Learning,introductory,32,60,4,INS-0017,active,2025-07-25T08:05:49Z
+CRS-000445,Time Series Specialist Track,Data Science,advanced,19,60,3,INS-0019,active,2025-05-07T17:58:22Z
+CRS-000446,Testing Practices Specialist Track 2,Software Engineering,advanced,34,55,3,INS-0049,active,2025-05-01T15:56:55Z
+CRS-000447,Secure Coding Fundamentals,Cybersecurity,introductory,47,75,2,INS-0053,active,2025-08-21T07:38:15Z
+CRS-000448,Decision Models Workshop,Business Analytics,intermediate,58,60,3,INS-0029,active,2025-08-21T18:23:21Z
+CRS-000449,Search Marketing Foundations 2,Digital Marketing,introductory,56,75,3,INS-0003,active,2025-07-27T15:38:42Z
+CRS-000450,Privacy in Health Masterclass 3,Healthcare Informatics,advanced,37,70,3,INS-0018,active,2025-08-27T16:42:43Z
+CRS-000451,Agile Delivery Foundations,Project Management,introductory,21,55,3,INS-0061,active,2025-07-10T10:35:15Z
+CRS-000452,Service Design Workshop,UX Design,intermediate,39,60,2,INS-0048,active,2025-06-14T13:05:26Z
+CRS-000453,Serverless in Practice,Cloud Computing,intermediate,11,65,3,INS-0020,active,2025-07-08T06:40:21Z
+CRS-000454,Treasury Essentials,Finance,introductory,53,55,2,INS-0044,active,2025-07-17T16:26:09Z
+CRS-000455,Climate Risk Applied 4,Sustainability,intermediate,51,55,2,INS-0046,active,2025-05-05T03:19:16Z
+CRS-000456,Computer Vision Essentials 2,AI and Machine Learning,introductory,9,60,3,INS-0012,active,2025-08-17T20:07:45Z
+CRS-000457,Predictive Modelling Essentials,Data Science,introductory,30,60,3,INS-0009,active,2025-06-23T10:53:20Z
+CRS-000458,Web Development Workshop,Software Engineering,intermediate,21,75,3,INS-0045,active,2025-07-23T14:35:11Z
+CRS-000459,Cryptography Basics Foundations 2,Cybersecurity,introductory,57,70,3,INS-0010,archived,2025-08-26T19:53:52Z
+CRS-000460,Dashboards in Practice 2,Business Analytics,intermediate,43,65,2,INS-0010,active,2025-06-15T20:30:02Z
+CRS-000461,Content Strategy Essentials,Digital Marketing,introductory,39,65,2,INS-0046,active,2025-05-27T05:42:57Z
+CRS-000462,Clinical Data in Practice,Healthcare Informatics,intermediate,19,70,4,INS-0033,active,2025-08-20T18:29:44Z
+CRS-000463,Scheduling Essentials,Project Management,introductory,59,75,3,INS-0040,active,2025-08-07T02:57:50Z
+CRS-000464,User Research Essentials 2,UX Design,introductory,18,70,2,INS-0034,active,2025-06-03T01:54:11Z
+CRS-000465,Networking Essentials 2,Cloud Computing,introductory,13,70,2,INS-0005,active,2025-06-29T23:43:03Z
+CRS-000466,Regulatory Reporting Fundamentals,Finance,introductory,18,60,2,INS-0038,active,2025-06-18T12:44:35Z
+CRS-000467,Sustainable Supply Chains Workshop 2,Sustainability,intermediate,30,75,2,INS-0052,active,2025-06-20T05:30:54Z
+CRS-000468,Neural Networks Foundations 2,AI and Machine Learning,introductory,28,70,2,INS-0033,active,2025-05-09T14:03:48Z
+CRS-000469,Experiment Design Advanced 3,Data Science,advanced,47,65,4,INS-0004,active,2025-07-03T01:53:09Z
+CRS-000470,Code Review Foundations,Software Engineering,introductory,58,60,4,INS-0058,active,2025-05-13T07:47:45Z
+CRS-000471,Incident Response in Practice 2,Cybersecurity,intermediate,22,55,3,INS-0050,active,2025-07-16T15:41:45Z
+CRS-000472,KPI Design Workshop,Business Analytics,intermediate,33,60,3,INS-0022,archived,2025-05-17T04:06:42Z
+CRS-000473,Search Marketing in Practice 2,Digital Marketing,intermediate,45,75,3,INS-0025,active,2025-08-08T04:41:04Z
+CRS-000474,Quality Metrics Fundamentals,Healthcare Informatics,introductory,17,65,3,INS-0037,active,2025-06-12T12:46:19Z
+CRS-000475,Planning Specialist Track,Project Management,advanced,22,70,3,INS-0050,active,2025-06-17T23:34:46Z
+CRS-000476,User Research Foundations,UX Design,introductory,9,60,3,INS-0012,active,2025-07-05T05:59:23Z
+CRS-000477,Networking Foundations,Cloud Computing,introductory,39,70,3,INS-0051,active,2025-07-01T07:40:09Z
+CRS-000478,Risk Analytics Fundamentals,Finance,introductory,42,70,4,INS-0031,active,2025-06-22T00:45:17Z
+CRS-000479,Policy Analysis Applied,Sustainability,intermediate,34,65,2,INS-0006,active,2025-07-05T17:27:38Z
+CRS-000480,Computer Vision Workshop 2,AI and Machine Learning,intermediate,40,75,4,INS-0004,active,2025-05-20T01:34:02Z
+CRS-000481,Statistics Applied,Data Science,intermediate,22,70,3,INS-0037,active,2025-06-07T07:39:03Z
+CRS-000482,Web Development Essentials 2,Software Engineering,introductory,33,65,4,INS-0060,active,2025-07-29T12:45:22Z
+CRS-000483,Threat Modelling Foundations 2,Cybersecurity,introductory,9,65,3,INS-0038,active,2025-07-14T22:13:31Z
+CRS-000484,KPI Design Essentials,Business Analytics,introductory,31,65,2,INS-0052,active,2025-08-10T01:58:46Z
+CRS-000485,Brand Positioning Foundations 2,Digital Marketing,introductory,33,65,3,INS-0054,active,2025-06-19T00:33:17Z
+CRS-000486,Health Records Advanced,Healthcare Informatics,advanced,28,65,3,INS-0013,active,2025-06-25T17:25:47Z
+CRS-000487,Stakeholder Communication Essentials 2,Project Management,introductory,25,60,3,INS-0018,active,2025-05-06T19:31:38Z
+CRS-000488,Service Design Applied 2,UX Design,intermediate,24,70,3,INS-0057,active,2025-06-06T14:02:59Z
+CRS-000489,Networking Foundations 2,Cloud Computing,introductory,21,55,2,INS-0022,active,2025-07-07T06:20:41Z
+CRS-000490,Investment Analysis Workshop 2,Finance,intermediate,29,65,3,INS-0006,active,2025-05-23T15:12:28Z
+CRS-000491,Resource Planning Workshop,Sustainability,intermediate,44,70,3,INS-0056,active,2025-05-29T17:55:26Z
+CRS-000492,Evaluation Methods Essentials,AI and Machine Learning,introductory,28,70,3,INS-0025,active,2025-08-24T21:26:57Z
+CRS-000493,SQL Analytics Masterclass 2,Data Science,advanced,17,70,3,INS-0019,active,2025-05-02T01:43:29Z
+CRS-000494,API Design Masterclass 4,Software Engineering,advanced,35,75,2,INS-0047,active,2025-06-29T21:03:50Z
+CRS-000495,Identity Management in Practice,Cybersecurity,intermediate,8,70,2,INS-0039,active,2025-07-27T10:50:40Z
+CRS-000496,Operations Analytics in Practice,Business Analytics,intermediate,52,70,3,INS-0032,active,2025-08-12T18:02:41Z
+CRS-000497,Search Marketing Foundations 3,Digital Marketing,introductory,47,60,4,INS-0013,active,2025-05-08T12:52:44Z
+CRS-000498,Interoperability in Practice,Healthcare Informatics,intermediate,16,75,4,INS-0061,active,2025-08-11T15:33:13Z
+CRS-000499,Risk Management Masterclass,Project Management,advanced,8,65,4,INS-0056,active,2025-05-29T03:35:06Z
+CRS-000500,Design Systems Fundamentals,UX Design,introductory,40,60,3,INS-0023,archived,2025-05-03T19:56:59Z
+CRS-000501,Cloud Security Fundamentals,Cloud Computing,introductory,38,60,2,INS-0007,active,2025-08-11T06:40:58Z
+CRS-000502,Risk Analytics Workshop,Finance,intermediate,60,65,4,INS-0044,active,2025-08-10T22:05:34Z
+CRS-000503,Carbon Accounting Fundamentals,Sustainability,introductory,51,55,4,INS-0058,active,2025-05-04T21:04:53Z
+CRS-000504,Computer Vision Foundations,AI and Machine Learning,introductory,23,65,2,INS-0033,archived,2025-05-27T09:33:08Z
+CRS-000505,Experiment Design Masterclass,Data Science,advanced,19,60,4,INS-0057,active,2025-06-26T23:07:46Z
+CRS-000506,Python Programming Specialist Track 2,Software Engineering,advanced,11,60,4,INS-0042,active,2025-05-17T18:03:35Z
+CRS-000507,Network Defence in Practice 3,Cybersecurity,intermediate,54,75,2,INS-0016,active,2025-07-07T15:47:20Z
+CRS-000508,Customer Segmentation Workshop,Business Analytics,intermediate,48,65,4,INS-0060,active,2025-08-01T13:06:18Z
+CRS-000509,Email Campaigns Fundamentals 2,Digital Marketing,introductory,43,70,4,INS-0051,active,2025-07-20T07:22:30Z
+CRS-000510,Interoperability Essentials 2,Healthcare Informatics,introductory,45,60,2,INS-0021,active,2025-05-15T00:48:21Z
+CRS-000511,Quality Assurance Workshop,Project Management,intermediate,54,65,2,INS-0031,active,2025-06-29T17:16:14Z
+CRS-000512,User Research Essentials 3,UX Design,introductory,15,65,3,INS-0046,active,2025-05-01T15:30:00Z
+CRS-000513,Containers Foundations 2,Cloud Computing,introductory,50,70,3,INS-0032,active,2025-08-11T12:41:03Z
+CRS-000514,Investment Analysis Workshop 3,Finance,intermediate,23,60,2,INS-0054,active,2025-05-30T11:42:50Z
+CRS-000515,Resource Planning Workshop 2,Sustainability,intermediate,9,55,3,INS-0015,active,2025-06-06T21:46:48Z
+CRS-000516,Computer Vision Specialist Track,AI and Machine Learning,advanced,29,70,2,INS-0016,active,2025-05-02T13:06:19Z
+CRS-000517,Predictive Modelling Foundations 3,Data Science,introductory,34,65,4,INS-0039,active,2025-08-11T14:55:36Z
+CRS-000518,Code Review Foundations 2,Software Engineering,introductory,35,55,2,INS-0038,active,2025-06-03T06:55:56Z
+CRS-000519,Security Governance Fundamentals,Cybersecurity,introductory,10,60,2,INS-0007,active,2025-07-07T09:01:55Z
+CRS-000520,Pricing Analytics in Practice 2,Business Analytics,intermediate,51,65,3,INS-0044,active,2025-08-28T18:24:46Z
+CRS-000521,Email Campaigns Specialist Track,Digital Marketing,advanced,44,65,3,INS-0007,active,2025-07-14T03:56:33Z
+CRS-000522,Population Health Foundations,Healthcare Informatics,introductory,39,60,2,INS-0042,active,2025-05-11T15:07:04Z
+CRS-000523,Portfolio Management Essentials 2,Project Management,introductory,35,65,3,INS-0024,active,2025-06-30T20:42:36Z
+CRS-000524,User Research Foundations 2,UX Design,introductory,45,60,2,INS-0059,active,2025-05-20T17:17:20Z
+CRS-000525,Serverless in Practice 2,Cloud Computing,intermediate,44,70,3,INS-0039,archived,2025-08-07T14:31:14Z
+CRS-000526,Corporate Valuation Foundations,Finance,introductory,38,60,2,INS-0016,active,2025-07-31T15:30:33Z
+CRS-000527,Circular Economy Applied 2,Sustainability,intermediate,42,65,3,INS-0061,active,2025-05-03T04:53:07Z
+CRS-000528,Machine Learning Workshop 2,AI and Machine Learning,intermediate,17,50,2,INS-0038,active,2025-08-21T01:34:27Z
+CRS-000529,Data Wrangling Specialist Track,Data Science,advanced,12,75,4,INS-0004,active,2025-06-27T20:36:20Z
+CRS-000530,Code Review Masterclass 2,Software Engineering,advanced,48,65,2,INS-0009,active,2025-08-21T10:00:52Z
+CRS-000531,Network Defence in Practice 4,Cybersecurity,intermediate,47,60,2,INS-0010,active,2025-07-12T16:43:29Z
+CRS-000532,Decision Models Specialist Track,Business Analytics,advanced,50,60,3,INS-0037,active,2025-05-27T03:47:52Z
+CRS-000533,Email Campaigns Fundamentals 3,Digital Marketing,introductory,55,70,3,INS-0010,active,2025-07-31T06:00:21Z
+CRS-000534,Telehealth Systems Essentials 3,Healthcare Informatics,introductory,34,60,3,INS-0046,active,2025-08-21T12:22:51Z
+CRS-000535,Budgeting Masterclass,Project Management,advanced,27,65,2,INS-0021,active,2025-06-02T07:54:30Z
+CRS-000536,Accessibility Fundamentals 3,UX Design,introductory,17,55,3,INS-0018,active,2025-06-16T16:06:42Z
+CRS-000537,Serverless in Practice 3,Cloud Computing,intermediate,52,65,4,INS-0044,active,2025-05-04T11:13:19Z
+CRS-000538,Audit Basics Applied,Finance,intermediate,40,70,3,INS-0023,active,2025-06-08T01:50:23Z
+CRS-000539,Sustainable Supply Chains Masterclass,Sustainability,advanced,34,70,4,INS-0008,active,2025-05-30T22:36:54Z
+CRS-000540,Feature Engineering Essentials,AI and Machine Learning,introductory,42,75,2,INS-0024,active,2025-07-31T19:46:30Z
+CRS-000541,SQL Analytics Fundamentals,Data Science,introductory,33,70,4,INS-0061,active,2025-07-17T09:24:08Z
+CRS-000542,Version Control Advanced,Software Engineering,advanced,38,70,4,INS-0040,active,2025-05-08T18:25:36Z
+CRS-000543,Identity Management Applied,Cybersecurity,intermediate,34,60,3,INS-0060,active,2025-06-22T06:27:30Z
+CRS-000544,Decision Models Fundamentals,Business Analytics,introductory,38,65,3,INS-0024,active,2025-06-22T22:16:53Z
+CRS-000545,Marketing Automation Applied,Digital Marketing,intermediate,14,60,3,INS-0014,active,2025-05-02T10:56:12Z
+CRS-000546,Medical Coding Foundations,Healthcare Informatics,introductory,38,70,3,INS-0004,active,2025-05-11T02:55:02Z
+CRS-000547,Portfolio Management Fundamentals,Project Management,introductory,34,60,3,INS-0030,active,2025-05-13T22:47:56Z
+CRS-000548,Usability Testing Workshop,UX Design,intermediate,51,60,2,INS-0043,active,2025-08-07T22:42:32Z
+CRS-000549,Cloud Foundations Foundations 2,Cloud Computing,introductory,51,65,4,INS-0008,active,2025-08-15T19:19:54Z
+CRS-000550,Risk Analytics Essentials 3,Finance,introductory,8,60,3,INS-0056,active,2025-05-01T02:01:38Z
+CRS-000551,Circular Economy Specialist Track 2,Sustainability,advanced,39,70,3,INS-0037,active,2025-08-25T17:56:37Z
+CRS-000552,Machine Learning Essentials,AI and Machine Learning,introductory,40,75,4,INS-0052,active,2025-07-10T15:14:29Z
+CRS-000553,Data Wrangling Workshop 2,Data Science,intermediate,22,55,2,INS-0062,active,2025-06-12T02:21:21Z
+CRS-000554,Version Control Foundations 3,Software Engineering,introductory,32,70,3,INS-0015,active,2025-07-07T20:46:49Z
+CRS-000555,Threat Modelling Foundations 3,Cybersecurity,introductory,38,60,2,INS-0054,active,2025-05-02T13:17:38Z
+CRS-000556,Operations Analytics Foundations 2,Business Analytics,introductory,51,60,4,INS-0008,active,2025-08-23T10:10:32Z
+CRS-000557,Email Campaigns Fundamentals 4,Digital Marketing,introductory,32,50,3,INS-0052,active,2025-07-05T19:56:32Z
+CRS-000558,Interoperability Advanced,Healthcare Informatics,advanced,42,60,2,INS-0019,active,2025-07-05T13:11:12Z
+CRS-000559,Agile Delivery Workshop 2,Project Management,intermediate,32,60,2,INS-0022,active,2025-05-18T05:09:52Z
+CRS-000560,User Research Fundamentals,UX Design,introductory,18,65,2,INS-0045,active,2025-07-31T10:38:51Z
+CRS-000561,Infrastructure as Code Fundamentals 3,Cloud Computing,introductory,14,55,2,INS-0061,active,2025-05-30T13:48:57Z
+CRS-000562,Corporate Valuation Workshop 2,Finance,intermediate,16,75,2,INS-0060,active,2025-08-07T07:03:10Z
+CRS-000563,Climate Risk Specialist Track,Sustainability,advanced,39,75,3,INS-0008,active,2025-06-05T07:54:43Z
+CRS-000564,Evaluation Methods in Practice 2,AI and Machine Learning,intermediate,36,60,3,INS-0057,active,2025-05-14T13:26:07Z
+CRS-000565,Visualisation in Practice 3,Data Science,intermediate,59,65,3,INS-0021,active,2025-05-19T17:32:12Z
+CRS-000566,Databases Essentials,Software Engineering,introductory,26,55,2,INS-0029,active,2025-08-11T03:58:14Z
+CRS-000567,Threat Modelling Applied,Cybersecurity,intermediate,11,60,3,INS-0030,active,2025-07-20T13:27:13Z
+CRS-000568,Operations Analytics Advanced,Business Analytics,advanced,20,50,4,INS-0045,active,2025-07-06T23:07:54Z
+CRS-000569,Search Marketing in Practice 3,Digital Marketing,intermediate,34,75,4,INS-0028,active,2025-07-04T19:52:14Z
+CRS-000570,Population Health Foundations 2,Healthcare Informatics,introductory,38,50,3,INS-0028,active,2025-06-16T00:01:32Z
+CRS-000571,Risk Management Essentials,Project Management,introductory,34,70,2,INS-0032,active,2025-05-21T03:16:23Z
+CRS-000572,Service Design in Practice,UX Design,intermediate,27,65,2,INS-0017,active,2025-05-08T03:01:04Z
+CRS-000573,Monitoring Foundations,Cloud Computing,introductory,56,65,2,INS-0027,active,2025-07-27T09:05:14Z
+CRS-000574,Budget Control in Practice,Finance,intermediate,37,75,3,INS-0013,active,2025-06-27T09:43:52Z
+CRS-000575,ESG Reporting Essentials 4,Sustainability,introductory,47,70,3,INS-0014,active,2025-07-06T05:10:26Z
+CRS-000576,Machine Learning Applied,AI and Machine Learning,intermediate,11,70,2,INS-0034,archived,2025-05-10T02:11:48Z
+CRS-000577,Time Series Applied,Data Science,intermediate,27,70,4,INS-0022,active,2025-07-11T16:02:25Z
+CRS-000578,Algorithms in Practice,Software Engineering,intermediate,41,65,3,INS-0047,active,2025-07-21T13:42:36Z
+CRS-000579,Cryptography Basics Foundations 3,Cybersecurity,introductory,29,60,4,INS-0029,active,2025-05-14T09:01:26Z
+CRS-000580,Pricing Analytics Advanced,Business Analytics,advanced,52,70,4,INS-0024,active,2025-08-06T02:51:32Z
+CRS-000581,Conversion Testing Masterclass,Digital Marketing,advanced,15,65,2,INS-0052,active,2025-06-09T23:09:36Z
+CRS-000582,Privacy in Health Foundations 2,Healthcare Informatics,introductory,19,70,3,INS-0005,active,2025-06-05T23:40:57Z
+CRS-000583,Budgeting Applied 3,Project Management,intermediate,60,60,2,INS-0047,active,2025-08-03T11:32:40Z
+CRS-000584,User Research Masterclass,UX Design,advanced,34,60,3,INS-0004,active,2025-07-21T04:42:23Z
+CRS-000585,Networking Foundations 3,Cloud Computing,introductory,20,70,2,INS-0040,active,2025-05-26T17:47:19Z
+CRS-000586,Regulatory Reporting Workshop,Finance,intermediate,48,70,2,INS-0036,active,2025-06-01T12:44:33Z
+CRS-000587,Carbon Accounting Workshop 4,Sustainability,intermediate,30,60,4,INS-0024,active,2025-08-22T15:14:25Z
+CRS-000588,Responsible AI Workshop,AI and Machine Learning,intermediate,49,65,3,INS-0005,active,2025-06-26T05:58:40Z
+CRS-000589,Data Ethics Workshop,Data Science,intermediate,60,60,3,INS-0050,active,2025-07-29T00:17:02Z
+CRS-000590,Databases Essentials 2,Software Engineering,introductory,48,60,2,INS-0010,active,2025-08-20T22:49:32Z
+CRS-000591,Network Defence in Practice 5,Cybersecurity,intermediate,60,65,4,INS-0058,active,2025-05-05T17:06:38Z
+CRS-000592,KPI Design Specialist Track,Business Analytics,advanced,15,65,2,INS-0047,archived,2025-08-23T09:48:44Z
+CRS-000593,Email Campaigns Fundamentals 5,Digital Marketing,introductory,11,65,2,INS-0051,active,2025-08-15T11:25:14Z
+CRS-000594,Interoperability in Practice 2,Healthcare Informatics,intermediate,55,60,4,INS-0023,active,2025-08-28T22:59:28Z
+CRS-000595,Quality Assurance in Practice 2,Project Management,intermediate,45,60,3,INS-0043,active,2025-06-09T03:01:14Z
+CRS-000596,Service Design Specialist Track,UX Design,advanced,23,65,4,INS-0009,active,2025-05-22T00:24:40Z
+CRS-000597,Infrastructure as Code in Practice 2,Cloud Computing,intermediate,44,65,2,INS-0035,archived,2025-08-06T04:29:53Z
+CRS-000598,Financial Statements Foundations,Finance,introductory,26,60,2,INS-0042,active,2025-08-11T17:08:54Z
+CRS-000599,Sustainable Supply Chains Essentials,Sustainability,introductory,36,60,3,INS-0050,active,2025-06-19T05:47:05Z
+CRS-000600,Machine Learning Applied 2,AI and Machine Learning,intermediate,21,50,3,INS-0020,active,2025-07-10T07:38:47Z
+CRS-000601,Statistics Foundations 2,Data Science,introductory,54,50,3,INS-0004,active,2025-08-20T14:54:26Z
+CRS-000602,Testing Practices Workshop,Software Engineering,intermediate,9,60,3,INS-0033,active,2025-05-13T21:08:46Z
+CRS-000603,Threat Modelling Foundations 4,Cybersecurity,introductory,14,75,3,INS-0060,active,2025-07-27T15:31:31Z
+CRS-000604,Dashboards Applied,Business Analytics,intermediate,24,60,3,INS-0052,active,2025-05-30T04:28:45Z
+CRS-000605,Brand Positioning Specialist Track,Digital Marketing,advanced,42,55,2,INS-0054,active,2025-05-08T11:58:39Z
+CRS-000606,Quality Metrics Essentials,Healthcare Informatics,introductory,26,65,2,INS-0002,active,2025-05-16T13:32:47Z
+CRS-000607,Quality Assurance in Practice 3,Project Management,intermediate,40,70,3,INS-0025,active,2025-05-09T22:45:29Z
+CRS-000608,Service Design Foundations 2,UX Design,introductory,47,60,2,INS-0010,active,2025-07-11T14:40:53Z
+CRS-000609,Networking Workshop,Cloud Computing,intermediate,38,70,4,INS-0007,active,2025-07-12T02:11:55Z
+CRS-000610,Corporate Valuation Applied,Finance,intermediate,59,75,2,INS-0020,active,2025-05-11T10:30:36Z
+CRS-000611,Carbon Accounting Workshop 5,Sustainability,intermediate,60,60,3,INS-0042,active,2025-08-29T18:09:54Z
+CRS-000612,Natural Language Fundamentals 4,AI and Machine Learning,introductory,51,60,3,INS-0057,active,2025-08-18T19:54:06Z
+CRS-000613,Data Ethics Fundamentals 2,Data Science,introductory,11,60,3,INS-0008,active,2025-07-13T17:17:23Z
+CRS-000614,Code Review Essentials 2,Software Engineering,introductory,24,70,3,INS-0021,active,2025-06-08T09:40:41Z
+CRS-000615,Identity Management Workshop,Cybersecurity,intermediate,56,50,4,INS-0049,active,2025-05-05T03:10:36Z
+CRS-000616,KPI Design Workshop 2,Business Analytics,intermediate,44,55,2,INS-0052,active,2025-05-07T01:48:50Z
+CRS-000617,Brand Positioning in Practice,Digital Marketing,intermediate,46,70,4,INS-0017,active,2025-07-18T22:14:57Z
+CRS-000618,Medical Coding Advanced,Healthcare Informatics,advanced,9,60,3,INS-0009,active,2025-08-03T20:08:26Z
+CRS-000619,Planning Foundations 2,Project Management,introductory,48,55,3,INS-0006,active,2025-06-23T07:01:30Z
+CRS-000620,Accessibility Foundations,UX Design,introductory,48,60,3,INS-0028,active,2025-05-08T20:07:27Z
+CRS-000621,Containers Applied,Cloud Computing,intermediate,59,60,2,INS-0001,active,2025-05-10T13:41:38Z
+CRS-000622,Budget Control Foundations,Finance,introductory,51,60,3,INS-0052,archived,2025-05-23T14:56:21Z
+CRS-000623,Energy Systems Workshop,Sustainability,intermediate,32,50,4,INS-0055,active,2025-08-29T13:17:28Z
+CRS-000624,Computer Vision Essentials 3,AI and Machine Learning,introductory,54,65,4,INS-0011,active,2025-07-27T08:05:34Z
+CRS-000625,Data Wrangling Essentials 2,Data Science,introductory,53,65,3,INS-0060,active,2025-07-22T12:52:35Z
+CRS-000626,Algorithms Foundations,Software Engineering,introductory,46,60,2,INS-0026,active,2025-05-10T15:18:38Z
+CRS-000627,Threat Modelling in Practice 3,Cybersecurity,intermediate,52,60,4,INS-0010,active,2025-06-14T04:17:40Z
+CRS-000628,Customer Segmentation Foundations 2,Business Analytics,introductory,33,60,2,INS-0031,active,2025-05-15T17:11:30Z
+CRS-000629,Social Analytics Masterclass 2,Digital Marketing,advanced,32,65,3,INS-0047,active,2025-05-28T16:46:13Z
+CRS-000630,Clinical Data Foundations,Healthcare Informatics,introductory,21,70,3,INS-0012,active,2025-05-11T00:51:37Z
+CRS-000631,Portfolio Management Foundations 2,Project Management,introductory,24,65,3,INS-0027,active,2025-06-04T14:12:50Z
+CRS-000632,Accessibility in Practice,UX Design,intermediate,50,65,4,INS-0061,active,2025-08-06T01:30:27Z
+CRS-000633,Serverless Fundamentals,Cloud Computing,introductory,13,65,2,INS-0009,active,2025-07-24T05:24:13Z
+CRS-000634,Regulatory Reporting Essentials 2,Finance,introductory,57,60,4,INS-0006,active,2025-08-20T22:39:18Z
+CRS-000635,Energy Systems Workshop 2,Sustainability,intermediate,20,65,3,INS-0052,active,2025-05-13T09:00:01Z
+CRS-000636,Evaluation Methods Workshop,AI and Machine Learning,intermediate,27,60,2,INS-0036,active,2025-08-22T18:21:17Z
+CRS-000637,Statistics in Practice,Data Science,intermediate,58,70,2,INS-0062,active,2025-06-07T13:10:30Z
+CRS-000638,Algorithms in Practice 2,Software Engineering,intermediate,53,70,4,INS-0004,archived,2025-08-23T11:17:20Z
+CRS-000639,Forensics in Practice 2,Cybersecurity,intermediate,8,60,2,INS-0008,active,2025-08-16T09:30:48Z
+CRS-000640,Forecasting Foundations 2,Business Analytics,introductory,28,70,3,INS-0041,active,2025-08-03T13:09:45Z
+CRS-000641,Brand Positioning Essentials 2,Digital Marketing,introductory,14,50,2,INS-0003,archived,2025-05-08T22:24:06Z
+CRS-000642,Interoperability Foundations 3,Healthcare Informatics,introductory,12,70,3,INS-0016,active,2025-05-17T08:22:55Z
+CRS-000643,Stakeholder Communication Masterclass,Project Management,advanced,40,70,3,INS-0027,active,2025-06-26T11:03:03Z
+CRS-000644,Design Systems Specialist Track,UX Design,advanced,20,60,3,INS-0006,active,2025-06-09T10:52:28Z
+CRS-000645,Monitoring Foundations 2,Cloud Computing,introductory,50,55,2,INS-0038,active,2025-06-22T15:52:14Z
+CRS-000646,Risk Analytics Fundamentals 2,Finance,introductory,11,65,4,INS-0047,active,2025-08-01T11:53:35Z
+CRS-000647,Energy Systems Applied,Sustainability,intermediate,37,70,2,INS-0060,active,2025-08-20T22:18:11Z
+CRS-000648,Natural Language Applied,AI and Machine Learning,intermediate,11,65,2,INS-0059,active,2025-05-17T16:03:42Z
+CRS-000649,SQL Analytics Advanced,Data Science,advanced,16,55,4,INS-0007,active,2025-06-09T20:50:10Z
+CRS-000650,Python Programming Essentials 3,Software Engineering,introductory,55,50,3,INS-0052,active,2025-05-20T21:47:32Z
+CRS-000651,Identity Management Advanced,Cybersecurity,advanced,30,75,4,INS-0029,active,2025-06-24T23:15:22Z
+CRS-000652,Pricing Analytics Applied,Business Analytics,intermediate,58,60,2,INS-0046,archived,2025-06-05T08:41:53Z
+CRS-000653,Marketing Automation Fundamentals,Digital Marketing,introductory,45,60,3,INS-0058,active,2025-05-03T19:00:28Z
+CRS-000654,Quality Metrics Essentials 2,Healthcare Informatics,introductory,23,60,3,INS-0052,active,2025-05-31T20:31:29Z
+CRS-000655,Planning Essentials 2,Project Management,introductory,50,60,3,INS-0020,active,2025-07-07T08:55:20Z
+CRS-000656,Design Systems Foundations,UX Design,introductory,52,60,3,INS-0034,active,2025-06-12T04:04:39Z
+CRS-000657,Cloud Security Fundamentals 2,Cloud Computing,introductory,15,70,4,INS-0004,active,2025-08-19T23:33:56Z
+CRS-000658,Investment Analysis in Practice,Finance,intermediate,24,75,2,INS-0041,active,2025-06-25T01:23:15Z
+CRS-000659,Energy Systems Essentials,Sustainability,introductory,28,70,2,INS-0027,archived,2025-07-31T13:46:08Z
+CRS-000660,Evaluation Methods Workshop 2,AI and Machine Learning,intermediate,34,70,2,INS-0043,active,2025-08-27T20:19:46Z
+CRS-000661,Data Wrangling Specialist Track 2,Data Science,advanced,17,50,4,INS-0049,active,2025-06-25T00:13:41Z
+CRS-000662,Version Control Advanced 2,Software Engineering,advanced,34,70,3,INS-0006,active,2025-06-22T18:55:32Z
+CRS-000663,Identity Management Essentials 2,Cybersecurity,introductory,41,65,2,INS-0021,active,2025-07-14T23:02:48Z
+CRS-000664,KPI Design Masterclass,Business Analytics,advanced,39,65,4,INS-0028,archived,2025-05-27T04:15:50Z
+CRS-000665,Brand Positioning Applied,Digital Marketing,intermediate,23,60,4,INS-0050,active,2025-05-30T21:45:09Z
+CRS-000666,Quality Metrics Advanced,Healthcare Informatics,advanced,36,70,4,INS-0052,active,2025-06-05T04:29:23Z
+CRS-000667,Portfolio Management Advanced 2,Project Management,advanced,20,60,2,INS-0030,active,2025-07-07T08:31:07Z
+CRS-000668,Design Systems Fundamentals 2,UX Design,introductory,56,75,4,INS-0049,active,2025-05-21T23:38:51Z
+CRS-000669,Cost Management Workshop 2,Cloud Computing,intermediate,37,65,3,INS-0027,active,2025-08-28T22:58:30Z
+CRS-000670,Budget Control Foundations 2,Finance,introductory,40,60,3,INS-0009,active,2025-06-29T18:06:04Z
+CRS-000671,Sustainable Supply Chains Fundamentals 2,Sustainability,introductory,53,70,2,INS-0029,active,2025-08-27T20:41:57Z
+CRS-000672,Machine Learning Advanced 2,AI and Machine Learning,advanced,40,60,3,INS-0033,active,2025-08-04T10:19:17Z
+CRS-000673,Visualisation Essentials 2,Data Science,introductory,39,60,4,INS-0027,active,2025-06-04T11:31:32Z
+CRS-000674,Python Programming Applied 2,Software Engineering,intermediate,48,65,2,INS-0028,active,2025-07-24T15:13:37Z
+CRS-000675,Identity Management Essentials 3,Cybersecurity,introductory,13,50,2,INS-0043,active,2025-08-15T14:34:27Z
+CRS-000676,Reporting Standards Applied,Business Analytics,intermediate,16,60,3,INS-0023,active,2025-08-09T07:41:29Z
+CRS-000677,Audience Research Masterclass,Digital Marketing,advanced,12,55,4,INS-0024,active,2025-07-25T00:47:53Z
+CRS-000678,Interoperability Essentials 3,Healthcare Informatics,introductory,59,55,3,INS-0049,active,2025-07-24T00:17:38Z
+CRS-000679,Budgeting Foundations 2,Project Management,introductory,59,60,3,INS-0014,active,2025-05-29T07:03:20Z
+CRS-000680,Service Design Fundamentals,UX Design,introductory,18,65,3,INS-0016,active,2025-06-05T12:16:48Z
+CRS-000681,Serverless Specialist Track 2,Cloud Computing,advanced,18,60,4,INS-0032,active,2025-05-06T15:51:04Z
+CRS-000682,Financial Statements Advanced,Finance,advanced,17,65,2,INS-0052,active,2025-07-18T23:59:17Z
+CRS-000683,Circular Economy Workshop,Sustainability,intermediate,8,55,4,INS-0029,active,2025-08-01T19:03:35Z
+CRS-000684,Computer Vision Workshop 3,AI and Machine Learning,intermediate,55,65,3,INS-0059,active,2025-08-21T07:58:56Z
+CRS-000685,Experiment Design Applied 2,Data Science,intermediate,23,60,3,INS-0037,active,2025-06-29T17:18:21Z
+CRS-000686,Code Review Workshop,Software Engineering,intermediate,46,55,3,INS-0059,active,2025-07-26T06:23:00Z
+CRS-000687,Identity Management in Practice 2,Cybersecurity,intermediate,58,70,2,INS-0061,active,2025-07-15T12:16:35Z
+CRS-000688,Decision Models in Practice 2,Business Analytics,intermediate,58,60,4,INS-0019,archived,2025-07-12T09:24:44Z
+CRS-000689,Search Marketing Advanced,Digital Marketing,advanced,41,60,2,INS-0044,archived,2025-05-01T19:40:30Z
+CRS-000690,Telehealth Systems in Practice,Healthcare Informatics,intermediate,11,60,2,INS-0040,active,2025-08-15T19:13:10Z
+CRS-000691,Quality Assurance Fundamentals 2,Project Management,introductory,45,65,3,INS-0029,active,2025-07-01T02:28:25Z
+CRS-000692,Prototyping Advanced 2,UX Design,advanced,60,70,4,INS-0059,active,2025-06-04T21:57:52Z
+CRS-000693,Cloud Security Foundations,Cloud Computing,introductory,45,70,3,INS-0060,active,2025-07-12T01:21:33Z
+CRS-000694,Risk Analytics Masterclass 2,Finance,advanced,25,70,4,INS-0058,active,2025-05-07T23:40:28Z
+CRS-000695,ESG Reporting Masterclass,Sustainability,advanced,50,75,4,INS-0049,active,2025-08-09T15:29:48Z
+CRS-000696,Model Deployment Foundations,AI and Machine Learning,introductory,35,70,2,INS-0014,active,2025-08-24T20:03:58Z
+CRS-000697,SQL Analytics Workshop,Data Science,intermediate,20,70,2,INS-0036,active,2025-05-29T17:06:47Z
+CRS-000698,Testing Practices Advanced,Software Engineering,advanced,38,50,2,INS-0022,active,2025-05-27T14:29:07Z
+CRS-000699,Incident Response Workshop,Cybersecurity,intermediate,59,60,2,INS-0017,active,2025-06-03T00:52:40Z
+CRS-000700,Decision Models Applied 4,Business Analytics,intermediate,47,75,2,INS-0037,active,2025-08-16T12:33:59Z
+CRS-000701,Content Strategy in Practice,Digital Marketing,intermediate,30,60,2,INS-0026,active,2025-05-15T16:01:49Z
+CRS-000702,Population Health Fundamentals 2,Healthcare Informatics,introductory,53,60,2,INS-0028,active,2025-08-18T03:48:30Z
+CRS-000703,Agile Delivery Foundations 2,Project Management,introductory,20,60,3,INS-0061,active,2025-07-15T05:47:35Z
+CRS-000704,Interaction Design in Practice 2,UX Design,intermediate,52,60,2,INS-0018,active,2025-07-19T07:21:26Z
+CRS-000705,Containers Workshop 2,Cloud Computing,intermediate,50,70,3,INS-0047,active,2025-08-25T02:58:18Z
+CRS-000706,Financial Statements Advanced 2,Finance,advanced,49,60,3,INS-0039,archived,2025-07-03T09:17:45Z
+CRS-000707,Sustainable Supply Chains Foundations 3,Sustainability,introductory,52,65,3,INS-0024,active,2025-08-11T02:14:02Z
+CRS-000708,Natural Language Advanced,AI and Machine Learning,advanced,58,60,3,INS-0050,active,2025-05-17T02:15:44Z
+CRS-000709,Data Ethics in Practice 3,Data Science,intermediate,32,60,4,INS-0004,active,2025-08-21T19:32:51Z
+CRS-000710,API Design Advanced 2,Software Engineering,advanced,31,60,3,INS-0024,active,2025-08-25T15:50:28Z
+CRS-000711,Identity Management Foundations 4,Cybersecurity,introductory,32,60,3,INS-0043,active,2025-05-11T11:00:20Z
+CRS-000712,Reporting Standards Advanced,Business Analytics,advanced,17,60,2,INS-0053,active,2025-05-14T04:24:34Z
+CRS-000713,Social Analytics Essentials 2,Digital Marketing,introductory,46,60,3,INS-0011,archived,2025-07-21T18:10:27Z
+CRS-000714,Telehealth Systems Foundations 2,Healthcare Informatics,introductory,33,60,3,INS-0012,active,2025-05-24T23:35:56Z
+CRS-000715,Portfolio Management Applied 3,Project Management,intermediate,46,60,4,INS-0016,active,2025-05-03T10:01:55Z
+CRS-000716,Accessibility Advanced,UX Design,advanced,60,70,2,INS-0045,active,2025-05-24T14:34:15Z
+CRS-000717,Cost Management in Practice,Cloud Computing,intermediate,16,70,3,INS-0043,active,2025-05-26T18:21:27Z
+CRS-000718,Financial Statements Applied 2,Finance,intermediate,19,70,2,INS-0027,active,2025-08-27T23:48:27Z
+CRS-000719,Carbon Accounting Masterclass,Sustainability,advanced,60,70,2,INS-0033,active,2025-08-27T12:28:57Z
+CRS-000720,Natural Language Foundations,AI and Machine Learning,introductory,26,55,2,INS-0029,active,2025-08-29T02:11:30Z
+CRS-000721,Predictive Modelling Essentials 2,Data Science,introductory,56,60,2,INS-0039,active,2025-06-05T06:17:13Z
+CRS-000722,Code Review in Practice 2,Software Engineering,intermediate,35,60,2,INS-0046,active,2025-05-25T06:06:17Z
+CRS-000723,Secure Coding Fundamentals 2,Cybersecurity,introductory,33,60,3,INS-0060,active,2025-05-31T00:22:06Z
+CRS-000724,Operations Analytics Essentials 3,Business Analytics,introductory,31,50,2,INS-0034,active,2025-07-06T06:25:55Z
+CRS-000725,Content Strategy Fundamentals,Digital Marketing,introductory,26,60,3,INS-0025,active,2025-07-17T19:12:15Z
+CRS-000726,Quality Metrics Fundamentals 2,Healthcare Informatics,introductory,8,60,3,INS-0057,active,2025-07-25T08:01:19Z
+CRS-000727,Budgeting Workshop 2,Project Management,intermediate,51,75,2,INS-0040,active,2025-08-23T05:59:18Z
+CRS-000728,Accessibility Masterclass 2,UX Design,advanced,31,75,2,INS-0013,active,2025-07-19T23:38:15Z
+CRS-000729,Infrastructure as Code Workshop 2,Cloud Computing,intermediate,48,55,2,INS-0060,active,2025-08-10T16:23:36Z
+CRS-000730,Regulatory Reporting Specialist Track,Finance,advanced,37,75,2,INS-0061,active,2025-05-30T22:35:50Z
+CRS-000731,Resource Planning Specialist Track,Sustainability,advanced,29,60,3,INS-0055,active,2025-05-03T03:38:28Z
+CRS-000732,Evaluation Methods Fundamentals 3,AI and Machine Learning,introductory,49,75,2,INS-0054,active,2025-08-14T05:12:55Z
+CRS-000733,Data Ethics Masterclass 3,Data Science,advanced,41,75,3,INS-0016,active,2025-07-06T17:27:45Z
+CRS-000734,Code Review Fundamentals 2,Software Engineering,introductory,38,60,2,INS-0037,active,2025-05-18T07:28:32Z
+CRS-000735,Identity Management Essentials 4,Cybersecurity,introductory,41,75,4,INS-0030,active,2025-08-03T22:44:26Z
+CRS-000736,Pricing Analytics Fundamentals,Business Analytics,introductory,37,70,3,INS-0029,active,2025-05-27T14:44:30Z
+CRS-000737,Email Campaigns Specialist Track 2,Digital Marketing,advanced,49,60,3,INS-0049,active,2025-05-04T17:39:17Z
+CRS-000738,Privacy in Health Essentials 3,Healthcare Informatics,introductory,20,65,3,INS-0034,active,2025-05-25T05:52:44Z
+CRS-000739,Portfolio Management Fundamentals 2,Project Management,introductory,56,70,2,INS-0016,active,2025-06-01T06:45:17Z
+CRS-000740,Prototyping Fundamentals,UX Design,introductory,57,60,4,INS-0058,active,2025-06-19T16:35:07Z
+CRS-000741,Cost Management Applied,Cloud Computing,intermediate,27,55,3,INS-0042,active,2025-08-01T23:34:11Z
+CRS-000742,Investment Analysis Masterclass,Finance,advanced,8,60,4,INS-0028,active,2025-08-28T22:53:32Z
+CRS-000743,Policy Analysis Applied 2,Sustainability,intermediate,29,65,3,INS-0057,active,2025-08-29T16:16:02Z
+CRS-000744,Neural Networks in Practice,AI and Machine Learning,intermediate,37,60,2,INS-0019,active,2025-06-24T02:14:23Z
+CRS-000745,SQL Analytics Specialist Track,Data Science,advanced,54,55,4,INS-0007,active,2025-06-25T12:08:34Z
+CRS-000746,Web Development Foundations 2,Software Engineering,introductory,45,60,3,INS-0025,active,2025-05-12T04:49:03Z
+CRS-000747,Network Defence in Practice 6,Cybersecurity,intermediate,30,75,3,INS-0020,active,2025-06-26T06:49:32Z
+CRS-000748,Pricing Analytics Fundamentals 2,Business Analytics,introductory,59,60,4,INS-0001,active,2025-08-11T20:50:41Z
+CRS-000749,Email Campaigns Essentials,Digital Marketing,introductory,53,70,2,INS-0055,active,2025-07-22T21:02:35Z
+CRS-000750,Telehealth Systems Applied,Healthcare Informatics,intermediate,29,70,3,INS-0044,active,2025-06-17T16:14:41Z
+CRS-000751,Scheduling Foundations,Project Management,introductory,46,65,3,INS-0029,active,2025-07-02T06:31:20Z
+CRS-000752,User Research Foundations 3,UX Design,introductory,17,65,3,INS-0013,archived,2025-05-26T20:57:51Z
+CRS-000753,Infrastructure as Code in Practice 3,Cloud Computing,intermediate,10,55,4,INS-0025,active,2025-05-06T16:03:11Z
+CRS-000754,Audit Basics Fundamentals 4,Finance,introductory,34,55,4,INS-0024,active,2025-08-27T10:45:00Z
+CRS-000755,Energy Systems in Practice,Sustainability,intermediate,59,55,2,INS-0017,active,2025-05-02T04:17:27Z
+CRS-000756,Model Deployment in Practice,AI and Machine Learning,intermediate,47,55,3,INS-0056,active,2025-08-10T01:22:14Z
+CRS-000757,Predictive Modelling Specialist Track,Data Science,advanced,31,55,3,INS-0050,active,2025-07-24T17:19:49Z
+CRS-000758,API Design Foundations 2,Software Engineering,introductory,37,50,2,INS-0026,active,2025-07-10T07:36:32Z
+CRS-000759,Cryptography Basics Applied,Cybersecurity,intermediate,17,70,2,INS-0009,active,2025-07-23T06:25:47Z
+CRS-000760,KPI Design Workshop 3,Business Analytics,intermediate,20,60,3,INS-0037,active,2025-07-21T01:58:10Z
+CRS-000761,Email Campaigns Essentials 2,Digital Marketing,introductory,34,50,4,INS-0028,active,2025-07-20T19:16:04Z
+CRS-000762,Privacy in Health Foundations 3,Healthcare Informatics,introductory,16,60,3,INS-0020,active,2025-08-26T04:50:27Z
+CRS-000763,Planning in Practice,Project Management,intermediate,25,55,4,INS-0040,active,2025-08-03T19:13:13Z
+CRS-000764,Usability Testing Foundations 3,UX Design,introductory,24,65,3,INS-0033,active,2025-08-08T09:27:53Z
+CRS-000765,Cloud Security Applied 2,Cloud Computing,intermediate,30,60,3,INS-0016,active,2025-08-10T00:48:15Z
+CRS-000766,Risk Analytics in Practice,Finance,intermediate,37,75,2,INS-0014,active,2025-07-27T20:08:34Z
+CRS-000767,Policy Analysis Workshop,Sustainability,intermediate,52,55,2,INS-0059,active,2025-06-10T04:07:49Z
+CRS-000768,Model Deployment Specialist Track,AI and Machine Learning,advanced,52,75,3,INS-0014,active,2025-05-08T08:00:26Z
+CRS-000769,Data Ethics Applied 2,Data Science,intermediate,23,70,3,INS-0032,active,2025-06-19T01:09:59Z
+CRS-000770,Python Programming Applied 3,Software Engineering,intermediate,41,60,3,INS-0048,active,2025-08-02T14:50:25Z
+CRS-000771,Cryptography Basics Essentials,Cybersecurity,introductory,50,75,2,INS-0059,active,2025-08-24T20:14:18Z
+CRS-000772,Reporting Standards Essentials 2,Business Analytics,introductory,20,65,4,INS-0003,active,2025-08-10T23:43:04Z
+CRS-000773,Audience Research Advanced,Digital Marketing,advanced,46,60,4,INS-0038,active,2025-08-22T03:32:09Z
+CRS-000774,Quality Metrics Advanced 2,Healthcare Informatics,advanced,43,60,2,INS-0047,active,2025-08-29T06:35:53Z
+CRS-000775,Agile Delivery Advanced 2,Project Management,advanced,44,60,3,INS-0043,active,2025-06-05T04:58:09Z
+CRS-000776,Design Systems Fundamentals 3,UX Design,introductory,25,50,3,INS-0054,active,2025-07-13T17:40:08Z
+CRS-000777,Serverless in Practice 4,Cloud Computing,intermediate,35,60,3,INS-0046,active,2025-07-10T06:21:21Z
+CRS-000778,Risk Analytics Foundations 3,Finance,introductory,37,65,3,INS-0052,active,2025-08-04T11:27:16Z
+CRS-000779,Policy Analysis Essentials 2,Sustainability,introductory,41,55,3,INS-0060,archived,2025-06-04T04:28:15Z
+CRS-000780,Feature Engineering Applied 2,AI and Machine Learning,intermediate,57,70,3,INS-0034,active,2025-08-24T02:17:53Z
+CRS-000781,Visualisation in Practice 4,Data Science,intermediate,52,50,4,INS-0044,active,2025-07-25T23:52:50Z
+CRS-000782,Python Programming Workshop 2,Software Engineering,intermediate,55,60,2,INS-0037,active,2025-07-18T12:23:19Z
+CRS-000783,Threat Modelling Specialist Track,Cybersecurity,advanced,13,75,4,INS-0041,active,2025-06-21T14:07:32Z
+CRS-000784,Decision Models Fundamentals 2,Business Analytics,introductory,60,70,2,INS-0053,active,2025-06-15T10:56:26Z
+CRS-000785,Social Analytics Essentials 3,Digital Marketing,introductory,51,60,2,INS-0009,active,2025-05-14T15:15:46Z
+CRS-000786,Telehealth Systems Specialist Track,Healthcare Informatics,advanced,10,70,3,INS-0032,active,2025-05-09T22:20:46Z
+CRS-000787,Budgeting Foundations 3,Project Management,introductory,47,65,3,INS-0040,active,2025-07-05T15:50:54Z
+CRS-000788,User Research Foundations 4,UX Design,introductory,13,60,3,INS-0052,active,2025-07-18T22:04:28Z
+CRS-000789,Infrastructure as Code Masterclass,Cloud Computing,advanced,39,55,2,INS-0029,active,2025-06-18T11:13:48Z
+CRS-000790,Treasury in Practice 3,Finance,intermediate,59,70,4,INS-0053,archived,2025-08-06T16:49:39Z
+CRS-000791,ESG Reporting Foundations,Sustainability,introductory,11,70,4,INS-0036,active,2025-05-26T13:16:00Z
+CRS-000792,Model Deployment Foundations 2,AI and Machine Learning,introductory,17,65,3,INS-0013,active,2025-05-19T11:52:57Z
+CRS-000793,Predictive Modelling Fundamentals 2,Data Science,introductory,39,60,4,INS-0021,active,2025-05-15T16:46:29Z
+CRS-000794,Databases Essentials 3,Software Engineering,introductory,40,65,2,INS-0047,active,2025-08-22T07:19:56Z
+CRS-000795,Threat Modelling Essentials,Cybersecurity,introductory,41,65,3,INS-0061,active,2025-05-11T17:22:50Z
+CRS-000796,Customer Segmentation Workshop 2,Business Analytics,intermediate,48,70,2,INS-0007,active,2025-06-21T12:15:01Z
+CRS-000797,Audience Research Advanced 2,Digital Marketing,advanced,14,60,2,INS-0018,active,2025-08-25T15:07:36Z
+CRS-000798,Medical Coding Fundamentals 2,Healthcare Informatics,introductory,58,60,2,INS-0011,active,2025-07-10T08:15:44Z
+CRS-000799,Budgeting Applied 4,Project Management,intermediate,34,70,4,INS-0044,active,2025-08-26T02:23:26Z
+CRS-000800,Accessibility Foundations 2,UX Design,introductory,16,55,4,INS-0036,active,2025-06-16T18:51:05Z
+CRS-000801,Cloud Security Advanced 2,Cloud Computing,advanced,42,60,3,INS-0047,active,2025-07-27T09:13:57Z
+CRS-000802,Financial Statements Workshop 3,Finance,intermediate,50,70,4,INS-0012,active,2025-08-01T11:19:24Z
+CRS-000803,Energy Systems Specialist Track,Sustainability,advanced,23,60,2,INS-0001,active,2025-06-07T19:16:59Z
+CRS-000804,Machine Learning Essentials 2,AI and Machine Learning,introductory,54,50,2,INS-0046,active,2025-07-12T00:55:17Z
+CRS-000805,Experiment Design in Practice 3,Data Science,intermediate,30,60,4,INS-0001,active,2025-08-12T05:33:37Z
+CRS-000806,API Design Workshop 2,Software Engineering,intermediate,12,60,3,INS-0020,active,2025-06-16T20:07:14Z
+CRS-000807,Threat Modelling Workshop,Cybersecurity,intermediate,32,55,4,INS-0037,active,2025-05-06T12:22:12Z
+CRS-000808,Reporting Standards Foundations,Business Analytics,introductory,55,60,4,INS-0001,active,2025-06-05T03:16:40Z
+CRS-000809,Conversion Testing Essentials,Digital Marketing,introductory,21,60,3,INS-0057,active,2025-05-05T21:55:00Z
+CRS-000810,Population Health Essentials,Healthcare Informatics,introductory,36,60,2,INS-0026,active,2025-05-07T13:50:10Z
+CRS-000811,Planning Applied,Project Management,intermediate,26,55,2,INS-0027,active,2025-06-07T20:47:31Z
+CRS-000812,Usability Testing Workshop 2,UX Design,intermediate,55,55,2,INS-0048,active,2025-05-12T17:01:19Z
+CRS-000813,Cloud Security Foundations 2,Cloud Computing,introductory,10,65,2,INS-0056,active,2025-05-21T17:23:51Z
+CRS-000814,Regulatory Reporting Advanced 2,Finance,advanced,51,70,4,INS-0021,active,2025-08-21T20:43:01Z
+CRS-000815,ESG Reporting Fundamentals 2,Sustainability,introductory,48,75,2,INS-0028,active,2025-05-30T07:43:56Z
+CRS-000816,Evaluation Methods Advanced,AI and Machine Learning,advanced,32,65,3,INS-0044,active,2025-05-06T15:31:39Z
+CRS-000817,Statistics Workshop,Data Science,intermediate,55,70,4,INS-0060,active,2025-07-18T05:57:01Z
+CRS-000818,Code Review Foundations 3,Software Engineering,introductory,27,60,4,INS-0015,active,2025-08-09T20:27:52Z
+CRS-000819,Network Defence Applied 2,Cybersecurity,intermediate,44,65,3,INS-0041,archived,2025-06-24T11:23:26Z
+CRS-000820,Operations Analytics Foundations 3,Business Analytics,introductory,9,75,3,INS-0007,archived,2025-05-19T03:20:23Z
+CRS-000821,Brand Positioning Applied 2,Digital Marketing,intermediate,9,60,3,INS-0038,active,2025-08-11T07:22:42Z
+CRS-000822,Medical Coding Foundations 2,Healthcare Informatics,introductory,44,60,2,INS-0009,archived,2025-05-20T15:16:48Z
+CRS-000823,Planning Specialist Track 2,Project Management,advanced,31,60,2,INS-0060,active,2025-05-18T06:07:42Z
+CRS-000824,Usability Testing in Practice,UX Design,intermediate,45,75,3,INS-0057,active,2025-05-19T02:05:46Z
+CRS-000825,Networking Applied,Cloud Computing,intermediate,28,65,3,INS-0061,active,2025-08-05T10:55:25Z
+CRS-000826,Corporate Valuation Applied 2,Finance,intermediate,13,60,4,INS-0060,active,2025-06-17T09:37:40Z
+CRS-000827,Circular Economy Applied 3,Sustainability,intermediate,9,65,2,INS-0023,active,2025-08-07T22:27:20Z
+CRS-000828,Feature Engineering in Practice,AI and Machine Learning,intermediate,23,60,3,INS-0010,active,2025-08-09T21:34:22Z
+CRS-000829,Time Series Fundamentals 2,Data Science,introductory,57,70,3,INS-0007,active,2025-08-10T16:00:06Z
+CRS-000830,Web Development in Practice 3,Software Engineering,intermediate,11,65,4,INS-0021,active,2025-08-11T18:56:09Z
+CRS-000831,Incident Response Essentials 3,Cybersecurity,introductory,23,60,2,INS-0050,archived,2025-07-28T05:40:49Z
+CRS-000832,Pricing Analytics in Practice 3,Business Analytics,intermediate,49,70,3,INS-0001,active,2025-05-23T13:33:11Z
+CRS-000833,Audience Research Fundamentals 3,Digital Marketing,introductory,48,60,4,INS-0008,active,2025-06-10T10:32:58Z
+CRS-000834,Interoperability Foundations 4,Healthcare Informatics,introductory,13,75,3,INS-0056,active,2025-07-11T01:05:27Z
+CRS-000835,Planning Foundations 3,Project Management,introductory,11,60,4,INS-0026,active,2025-07-17T13:08:05Z
+CRS-000836,User Research Essentials 4,UX Design,introductory,25,65,2,INS-0045,active,2025-08-24T07:30:43Z
+CRS-000837,Cost Management Workshop 3,Cloud Computing,intermediate,25,60,2,INS-0031,active,2025-06-03T13:55:49Z
+CRS-000838,Regulatory Reporting Essentials 3,Finance,introductory,56,60,4,INS-0036,active,2025-05-07T23:17:52Z
+CRS-000839,Carbon Accounting Essentials,Sustainability,introductory,30,65,2,INS-0043,active,2025-08-22T00:43:38Z
+CRS-000840,Evaluation Methods Workshop 3,AI and Machine Learning,intermediate,23,70,4,INS-0001,active,2025-06-09T19:46:30Z
+CRS-000841,Time Series in Practice 2,Data Science,intermediate,54,70,4,INS-0033,active,2025-07-12T17:45:10Z
+CRS-000842,Version Control Workshop 2,Software Engineering,intermediate,49,60,4,INS-0025,active,2025-06-27T12:31:01Z
+CRS-000843,Security Governance Masterclass,Cybersecurity,advanced,51,70,4,INS-0001,active,2025-05-04T07:01:10Z
+CRS-000844,Pricing Analytics Essentials,Business Analytics,introductory,31,60,4,INS-0038,active,2025-06-18T14:18:19Z
+CRS-000845,Search Marketing in Practice 4,Digital Marketing,intermediate,44,60,3,INS-0060,archived,2025-06-21T00:05:41Z
+CRS-000846,Clinical Data Masterclass,Healthcare Informatics,advanced,55,65,2,INS-0028,active,2025-06-14T02:26:06Z
+CRS-000847,Scheduling Masterclass,Project Management,advanced,52,65,4,INS-0019,active,2025-05-31T14:09:49Z
+CRS-000848,Prototyping Workshop 3,UX Design,intermediate,39,70,2,INS-0002,active,2025-06-12T08:48:35Z
+CRS-000849,Cost Management Fundamentals,Cloud Computing,introductory,37,60,2,INS-0042,active,2025-07-05T15:46:15Z
+CRS-000850,Investment Analysis Essentials,Finance,introductory,51,70,3,INS-0021,active,2025-08-20T10:26:53Z
+CRS-000851,ESG Reporting Fundamentals 3,Sustainability,introductory,47,75,2,INS-0030,active,2025-06-13T16:17:35Z
+CRS-000852,Responsible AI Specialist Track 2,AI and Machine Learning,advanced,9,60,3,INS-0027,active,2025-08-27T09:19:06Z
+CRS-000853,Data Ethics Masterclass 4,Data Science,advanced,42,60,3,INS-0030,active,2025-07-16T22:58:30Z
+CRS-000854,API Design Masterclass 5,Software Engineering,advanced,25,65,3,INS-0038,active,2025-08-20T10:37:23Z
+CRS-000855,Security Governance Fundamentals 2,Cybersecurity,introductory,8,55,3,INS-0029,archived,2025-05-14T01:40:40Z
+CRS-000856,Forecasting Advanced,Business Analytics,advanced,22,75,4,INS-0010,active,2025-08-09T18:48:55Z
+CRS-000857,Content Strategy Fundamentals 2,Digital Marketing,introductory,35,70,2,INS-0061,active,2025-08-03T07:19:21Z
+CRS-000858,Medical Coding Fundamentals 3,Healthcare Informatics,introductory,53,70,2,INS-0043,active,2025-08-29T09:43:33Z
+CRS-000859,Portfolio Management Essentials 3,Project Management,introductory,30,60,4,INS-0036,active,2025-06-11T23:02:40Z
+CRS-000860,Service Design Fundamentals 2,UX Design,introductory,37,70,2,INS-0026,active,2025-05-19T05:27:50Z
+CRS-000861,Serverless Workshop,Cloud Computing,intermediate,42,70,2,INS-0032,active,2025-05-22T20:20:52Z
+CRS-000862,Audit Basics Advanced,Finance,advanced,50,55,3,INS-0037,active,2025-07-28T21:43:36Z
+CRS-000863,Resource Planning in Practice 2,Sustainability,intermediate,17,75,3,INS-0053,active,2025-05-06T11:47:11Z
+CRS-000864,Evaluation Methods Specialist Track,AI and Machine Learning,advanced,60,60,2,INS-0010,active,2025-08-02T13:38:05Z
+CRS-000865,Predictive Modelling Essentials 3,Data Science,introductory,8,75,2,INS-0057,active,2025-07-14T20:36:04Z
+CRS-000866,Testing Practices Fundamentals,Software Engineering,introductory,14,60,2,INS-0060,active,2025-07-03T01:26:07Z
+CRS-000867,Network Defence Essentials,Cybersecurity,introductory,50,60,4,INS-0030,active,2025-07-08T08:45:42Z
+CRS-000868,Reporting Standards Essentials 3,Business Analytics,introductory,46,60,3,INS-0004,active,2025-08-24T08:31:31Z
+CRS-000869,Social Analytics in Practice,Digital Marketing,intermediate,21,70,2,INS-0061,active,2025-05-23T23:52:18Z
+CRS-000870,Health Records in Practice 2,Healthcare Informatics,intermediate,24,60,3,INS-0004,active,2025-08-15T11:40:32Z
+CRS-000871,Agile Delivery in Practice 2,Project Management,intermediate,55,70,2,INS-0001,active,2025-06-28T11:57:59Z
+CRS-000872,Usability Testing Foundations 4,UX Design,introductory,47,70,2,INS-0061,active,2025-07-30T21:17:27Z
+CRS-000873,Networking in Practice 2,Cloud Computing,intermediate,51,60,3,INS-0036,active,2025-08-27T19:16:34Z
+CRS-000874,Corporate Valuation in Practice 2,Finance,intermediate,32,65,2,INS-0031,active,2025-08-29T06:28:14Z
+CRS-000875,Climate Risk Fundamentals,Sustainability,introductory,43,55,2,INS-0057,active,2025-05-29T05:18:45Z
+CRS-000876,Natural Language Masterclass,AI and Machine Learning,advanced,26,65,2,INS-0032,active,2025-07-23T15:45:15Z
+CRS-000877,Time Series Applied 2,Data Science,intermediate,46,70,3,INS-0018,active,2025-05-11T09:40:24Z
+CRS-000878,API Design Fundamentals,Software Engineering,introductory,10,50,3,INS-0057,active,2025-06-21T20:34:32Z
+CRS-000879,Secure Coding Fundamentals 3,Cybersecurity,introductory,27,60,3,INS-0012,active,2025-07-27T05:26:05Z
+CRS-000880,Forecasting Fundamentals 3,Business Analytics,introductory,44,75,2,INS-0029,active,2025-08-28T09:32:54Z
+CRS-000881,Conversion Testing Fundamentals,Digital Marketing,introductory,56,65,3,INS-0042,active,2025-08-23T04:55:52Z
+CRS-000882,Medical Coding Masterclass 3,Healthcare Informatics,advanced,26,60,3,INS-0027,active,2025-07-09T00:42:40Z
+CRS-000883,Scheduling Advanced,Project Management,advanced,32,60,3,INS-0012,active,2025-07-24T14:07:16Z
+CRS-000884,Prototyping Applied,UX Design,intermediate,25,65,2,INS-0030,active,2025-06-10T22:10:08Z
+CRS-000885,Networking Applied 2,Cloud Computing,intermediate,38,55,4,INS-0054,active,2025-08-10T21:48:11Z
+CRS-000886,Investment Analysis Applied 2,Finance,intermediate,42,60,2,INS-0006,active,2025-06-28T14:59:56Z
+CRS-000887,Climate Risk Workshop,Sustainability,intermediate,34,60,3,INS-0010,active,2025-07-09T05:00:10Z
+CRS-000888,Machine Learning Workshop 3,AI and Machine Learning,intermediate,12,65,3,INS-0017,active,2025-08-22T17:54:08Z
+CRS-000889,Statistics Fundamentals 3,Data Science,introductory,29,70,3,INS-0060,active,2025-07-06T00:40:12Z
+CRS-000890,Version Control Advanced 3,Software Engineering,advanced,21,60,3,INS-0019,active,2025-07-05T20:27:45Z
+CRS-000891,Threat Modelling Applied 2,Cybersecurity,intermediate,39,60,2,INS-0018,active,2025-08-16T00:10:49Z
+CRS-000892,Reporting Standards Foundations 2,Business Analytics,introductory,35,60,4,INS-0037,active,2025-08-13T14:40:10Z
+CRS-000893,Marketing Automation Workshop,Digital Marketing,intermediate,16,70,4,INS-0046,active,2025-07-26T01:19:49Z
+CRS-000894,Telehealth Systems Applied 2,Healthcare Informatics,intermediate,25,60,2,INS-0056,archived,2025-07-05T19:36:42Z
+CRS-000895,Quality Assurance Fundamentals 3,Project Management,introductory,38,60,4,INS-0045,active,2025-05-16T16:42:10Z
+CRS-000896,Interaction Design Advanced,UX Design,advanced,23,75,3,INS-0013,active,2025-05-14T09:13:55Z
+CRS-000897,Containers Foundations 3,Cloud Computing,introductory,46,65,3,INS-0050,active,2025-07-26T08:02:51Z
+CRS-000898,Risk Analytics Specialist Track 2,Finance,advanced,28,65,2,INS-0006,active,2025-08-25T18:24:26Z
+CRS-000899,ESG Reporting Masterclass 2,Sustainability,advanced,54,60,2,INS-0044,active,2025-08-04T10:04:35Z
+CRS-000900,Feature Engineering Foundations,AI and Machine Learning,introductory,47,65,4,INS-0004,active,2025-05-23T23:01:39Z
+CRS-000901,Predictive Modelling Workshop,Data Science,intermediate,47,65,4,INS-0006,archived,2025-07-14T06:16:48Z
+CRS-000902,Databases in Practice,Software Engineering,intermediate,29,55,2,INS-0057,active,2025-08-20T01:09:38Z
+CRS-000903,Identity Management Advanced 2,Cybersecurity,advanced,24,60,3,INS-0015,active,2025-07-17T11:50:58Z
+CRS-000904,Customer Segmentation Workshop 3,Business Analytics,intermediate,49,60,3,INS-0011,active,2025-08-23T01:56:54Z
+CRS-000905,Audience Research Fundamentals 4,Digital Marketing,introductory,40,65,2,INS-0040,active,2025-06-01T22:09:45Z
+CRS-000906,Interoperability in Practice 3,Healthcare Informatics,intermediate,56,55,3,INS-0046,active,2025-08-25T14:59:13Z
+CRS-000907,Planning Fundamentals,Project Management,introductory,35,60,2,INS-0047,active,2025-06-25T22:54:47Z
+CRS-000908,Information Architecture Applied,UX Design,intermediate,31,60,3,INS-0062,archived,2025-07-30T13:57:22Z
+CRS-000909,Infrastructure as Code Masterclass 2,Cloud Computing,advanced,52,60,4,INS-0020,active,2025-05-01T04:21:32Z
+CRS-000910,Audit Basics Fundamentals 5,Finance,introductory,53,70,4,INS-0001,active,2025-05-25T03:08:37Z
+CRS-000911,Policy Analysis in Practice 2,Sustainability,intermediate,30,60,3,INS-0038,active,2025-05-09T09:24:12Z
+CRS-000912,Computer Vision in Practice 2,AI and Machine Learning,intermediate,53,65,2,INS-0026,active,2025-08-15T19:21:32Z
+CRS-000913,Data Ethics Applied 3,Data Science,intermediate,43,60,2,INS-0047,active,2025-05-16T03:38:12Z
+CRS-000914,Version Control Workshop 3,Software Engineering,intermediate,24,75,2,INS-0022,active,2025-06-20T20:46:10Z
+CRS-000915,Secure Coding Fundamentals 4,Cybersecurity,introductory,40,75,3,INS-0010,active,2025-05-12T12:40:10Z
+CRS-000916,Forecasting Essentials,Business Analytics,introductory,31,65,3,INS-0046,active,2025-05-21T02:44:02Z
+CRS-000917,Audience Research Workshop 2,Digital Marketing,intermediate,17,65,4,INS-0053,active,2025-06-27T05:46:04Z
+CRS-000918,Quality Metrics Fundamentals 3,Healthcare Informatics,introductory,21,65,4,INS-0055,active,2025-06-10T21:31:02Z
+CRS-000919,Budgeting Fundamentals 3,Project Management,introductory,8,60,3,INS-0001,active,2025-08-25T18:41:44Z
+CRS-000920,Interaction Design Advanced 2,UX Design,advanced,59,60,2,INS-0061,active,2025-06-04T04:44:35Z
+CRS-000921,Cloud Security Workshop 2,Cloud Computing,intermediate,27,55,4,INS-0039,active,2025-07-04T01:28:55Z
+CRS-000922,Financial Statements in Practice 3,Finance,intermediate,22,70,3,INS-0049,active,2025-08-08T10:47:10Z
+CRS-000923,Sustainable Supply Chains Workshop 3,Sustainability,intermediate,31,75,4,INS-0046,active,2025-06-12T16:24:20Z
+CRS-000924,Evaluation Methods Applied,AI and Machine Learning,intermediate,8,55,2,INS-0044,active,2025-08-24T16:08:22Z
+CRS-000925,Experiment Design Foundations,Data Science,introductory,54,70,4,INS-0058,active,2025-08-18T09:03:39Z
+CRS-000926,Databases Essentials 4,Software Engineering,introductory,13,50,2,INS-0016,active,2025-06-21T03:34:28Z
+CRS-000927,Forensics Applied 2,Cybersecurity,intermediate,41,65,2,INS-0032,active,2025-07-23T19:33:13Z
+CRS-000928,Pricing Analytics Applied 2,Business Analytics,intermediate,48,70,3,INS-0024,active,2025-05-14T05:31:42Z
+CRS-000929,Social Analytics Workshop 5,Digital Marketing,intermediate,48,60,3,INS-0052,active,2025-06-07T21:02:38Z
+CRS-000930,Privacy in Health Fundamentals 3,Healthcare Informatics,introductory,38,60,3,INS-0013,active,2025-06-11T22:41:07Z
+CRS-000931,Quality Assurance in Practice 4,Project Management,intermediate,17,55,3,INS-0023,active,2025-05-23T06:13:16Z
+CRS-000932,Interaction Design Applied 2,UX Design,intermediate,9,65,2,INS-0058,active,2025-06-06T10:49:09Z
+CRS-000933,Cost Management Specialist Track,Cloud Computing,advanced,53,50,3,INS-0049,active,2025-05-12T13:01:32Z
+CRS-000934,Risk Analytics in Practice 2,Finance,intermediate,27,70,2,INS-0051,active,2025-07-05T05:51:30Z
+CRS-000935,Sustainable Supply Chains Applied 2,Sustainability,intermediate,38,60,3,INS-0026,active,2025-05-05T23:31:59Z
+CRS-000936,Machine Learning Applied 3,AI and Machine Learning,intermediate,52,65,2,INS-0022,active,2025-06-07T23:16:15Z
+CRS-000937,Predictive Modelling Specialist Track 2,Data Science,advanced,11,60,3,INS-0018,active,2025-06-27T11:07:36Z
+CRS-000938,Version Control in Practice 2,Software Engineering,intermediate,54,60,2,INS-0033,active,2025-08-16T16:12:13Z
+CRS-000939,Cryptography Basics Foundations 4,Cybersecurity,introductory,17,60,3,INS-0016,active,2025-07-14T18:21:27Z
+CRS-000940,Customer Segmentation Fundamentals 2,Business Analytics,introductory,57,60,4,INS-0023,active,2025-07-25T16:50:55Z
+CRS-000941,Marketing Automation Applied 2,Digital Marketing,intermediate,54,60,4,INS-0008,active,2025-05-24T21:37:40Z
+CRS-000942,Health Records in Practice 3,Healthcare Informatics,intermediate,37,70,3,INS-0007,active,2025-08-27T16:08:48Z
+CRS-000943,Quality Assurance Applied 2,Project Management,intermediate,19,65,3,INS-0011,active,2025-08-02T23:03:23Z
+CRS-000944,Usability Testing Foundations 5,UX Design,introductory,21,60,3,INS-0054,active,2025-06-30T00:29:34Z
+CRS-000945,Infrastructure as Code Fundamentals 4,Cloud Computing,introductory,50,70,3,INS-0009,active,2025-07-17T23:50:40Z
+CRS-000946,Financial Statements Workshop 4,Finance,intermediate,54,55,2,INS-0029,active,2025-06-13T09:03:34Z
+CRS-000947,Circular Economy Foundations,Sustainability,introductory,13,70,2,INS-0018,active,2025-06-18T13:35:39Z
+CRS-000948,Machine Learning Specialist Track 2,AI and Machine Learning,advanced,29,55,2,INS-0018,active,2025-05-01T04:42:12Z
+CRS-000949,Data Wrangling Applied,Data Science,intermediate,50,60,3,INS-0062,active,2025-05-30T20:07:17Z
+CRS-000950,Testing Practices Foundations,Software Engineering,introductory,49,60,3,INS-0010,archived,2025-08-22T01:32:56Z
+CRS-000951,Network Defence Foundations,Cybersecurity,introductory,40,70,2,INS-0044,active,2025-06-22T12:15:34Z
+CRS-000952,Customer Segmentation in Practice,Business Analytics,intermediate,32,60,4,INS-0053,active,2025-05-13T22:31:49Z
+CRS-000953,Social Analytics Advanced 2,Digital Marketing,advanced,13,65,2,INS-0014,active,2025-07-09T05:28:28Z
+CRS-000954,Population Health Applied 2,Healthcare Informatics,intermediate,43,65,4,INS-0018,active,2025-05-11T23:02:55Z
+CRS-000955,Budgeting Applied 5,Project Management,intermediate,44,70,4,INS-0056,active,2025-05-28T20:21:15Z
+CRS-000956,User Research Essentials 5,UX Design,introductory,42,60,2,INS-0040,active,2025-07-14T21:25:14Z
+CRS-000957,Cost Management Essentials 3,Cloud Computing,introductory,25,60,4,INS-0026,active,2025-06-09T22:02:57Z
+CRS-000958,Audit Basics Applied 2,Finance,intermediate,34,50,2,INS-0021,active,2025-08-28T09:54:51Z
+CRS-000959,Climate Risk Workshop 2,Sustainability,intermediate,26,55,3,INS-0043,active,2025-05-31T00:30:36Z
+CRS-000960,Model Deployment Foundations 3,AI and Machine Learning,introductory,23,65,3,INS-0044,active,2025-06-11T09:36:45Z
+CRS-000961,Time Series Applied 3,Data Science,intermediate,38,65,2,INS-0034,active,2025-06-13T20:48:46Z
+CRS-000962,Version Control Workshop 4,Software Engineering,intermediate,38,75,2,INS-0055,active,2025-08-09T16:04:58Z
+CRS-000963,Network Defence Workshop,Cybersecurity,intermediate,43,55,3,INS-0014,active,2025-07-12T19:04:08Z
+CRS-000964,Customer Segmentation Applied,Business Analytics,intermediate,49,60,2,INS-0046,active,2025-08-23T09:47:01Z
+CRS-000965,Marketing Automation in Practice 2,Digital Marketing,intermediate,52,75,3,INS-0029,active,2025-07-06T06:20:25Z
+CRS-000966,Clinical Data Applied,Healthcare Informatics,intermediate,51,60,2,INS-0058,active,2025-06-12T13:44:38Z
+CRS-000967,Agile Delivery Essentials 2,Project Management,introductory,27,60,4,INS-0051,active,2025-06-01T19:06:01Z
+CRS-000968,Usability Testing Applied 3,UX Design,intermediate,29,50,2,INS-0029,active,2025-08-06T13:42:01Z
+CRS-000969,Infrastructure as Code Applied,Cloud Computing,intermediate,25,70,3,INS-0030,active,2025-07-15T09:35:28Z
+CRS-000970,Financial Statements Workshop 5,Finance,intermediate,34,55,2,INS-0038,archived,2025-08-18T23:04:59Z
+CRS-000971,Energy Systems Applied 2,Sustainability,intermediate,28,70,3,INS-0017,active,2025-08-10T15:44:56Z
+CRS-000972,Feature Engineering Advanced,AI and Machine Learning,advanced,40,55,4,INS-0060,active,2025-07-23T03:41:59Z
+CRS-000973,SQL Analytics Advanced 2,Data Science,advanced,26,60,3,INS-0017,active,2025-07-24T11:03:51Z
+CRS-000974,Testing Practices Advanced 2,Software Engineering,advanced,28,75,4,INS-0043,active,2025-08-14T23:46:17Z
+CRS-000975,Forensics Foundations 2,Cybersecurity,introductory,44,60,2,INS-0008,active,2025-05-18T07:33:58Z
+CRS-000976,KPI Design Fundamentals,Business Analytics,introductory,30,60,2,INS-0040,active,2025-05-10T06:56:07Z
+CRS-000977,Audience Research Advanced 3,Digital Marketing,advanced,11,70,3,INS-0060,active,2025-07-14T15:52:40Z
+CRS-000978,Telehealth Systems in Practice 2,Healthcare Informatics,intermediate,19,60,3,INS-0019,active,2025-07-09T00:39:34Z
+CRS-000979,Risk Management in Practice,Project Management,intermediate,27,50,3,INS-0054,active,2025-05-22T14:58:16Z
+CRS-000980,Interaction Design Foundations,UX Design,introductory,32,70,2,INS-0047,active,2025-05-20T18:45:09Z
+CRS-000981,Monitoring in Practice,Cloud Computing,intermediate,28,70,4,INS-0018,active,2025-08-06T09:35:03Z
+CRS-000982,Audit Basics Essentials 2,Finance,introductory,9,70,3,INS-0025,active,2025-08-28T06:45:35Z
+CRS-000983,Circular Economy in Practice 3,Sustainability,intermediate,25,65,3,INS-0055,active,2025-07-24T03:32:45Z
+CRS-000984,Responsible AI Workshop 2,AI and Machine Learning,intermediate,57,75,3,INS-0026,active,2025-06-21T17:56:18Z
+CRS-000985,Statistics in Practice 2,Data Science,intermediate,41,65,3,INS-0022,active,2025-07-16T11:17:49Z
+CRS-000986,Algorithms Applied 2,Software Engineering,intermediate,33,60,2,INS-0009,active,2025-05-09T00:01:26Z
+CRS-000987,Secure Coding Foundations 2,Cybersecurity,introductory,30,65,2,INS-0033,active,2025-08-19T09:23:25Z
+CRS-000988,Dashboards Fundamentals 3,Business Analytics,introductory,25,55,3,INS-0040,active,2025-08-27T14:13:54Z
+CRS-000989,Content Strategy Applied 2,Digital Marketing,intermediate,9,60,3,INS-0021,active,2025-05-13T03:04:23Z
+CRS-000990,Population Health Fundamentals 3,Healthcare Informatics,introductory,32,65,2,INS-0051,active,2025-06-20T02:23:33Z
+CRS-000991,Agile Delivery Applied 2,Project Management,intermediate,57,70,3,INS-0032,active,2025-06-07T21:14:15Z
+CRS-000992,Prototyping Essentials 3,UX Design,introductory,47,75,4,INS-0013,archived,2025-06-16T02:18:45Z
+CRS-000993,Monitoring in Practice 2,Cloud Computing,intermediate,33,60,3,INS-0013,active,2025-06-23T20:51:10Z
+CRS-000994,Treasury Specialist Track 3,Finance,advanced,58,70,2,INS-0045,active,2025-07-30T16:33:15Z
+CRS-000995,Circular Economy Workshop 2,Sustainability,intermediate,28,60,4,INS-0054,active,2025-05-19T14:01:41Z
+CRS-000996,Model Deployment Workshop,AI and Machine Learning,intermediate,60,65,4,INS-0052,active,2025-06-06T12:21:47Z
+CRS-000997,Data Wrangling in Practice 2,Data Science,intermediate,10,60,2,INS-0054,active,2025-07-05T20:34:25Z
+CRS-000998,Databases Fundamentals,Software Engineering,introductory,42,55,4,INS-0015,active,2025-08-21T14:38:58Z
+CRS-000999,Security Governance Applied 3,Cybersecurity,intermediate,27,75,4,INS-0007,active,2025-05-24T20:45:23Z
+CRS-001000,Pricing Analytics Essentials 2,Business Analytics,introductory,59,60,2,INS-0001,active,2025-07-02T20:13:45Z

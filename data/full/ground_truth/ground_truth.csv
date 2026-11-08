@@ -1,0 +1,104 @@
+ground_truth_id,issue_type,entity_type,entity_id,related_entity_id,source_file,description
+GT-00001,credential_issued_before_completion,credential,CRD-2026-003017,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00002,credential_issued_before_completion,credential,CRD-2026-003106,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00003,credential_issued_before_completion,credential,CRD-2026-003155,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00004,credential_issued_before_completion,credential,CRD-2026-003191,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00005,credential_issued_before_completion,credential,CRD-2026-003225,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00006,credential_issued_before_completion,credential,CRD-2026-003443,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00007,credential_issued_before_completion,credential,CRD-2026-004236,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00008,credential_issued_before_completion,credential,CRD-2026-004445,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00009,credential_issued_before_completion,credential,CRD-2026-004718,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00010,credential_issued_before_completion,credential,CRD-2026-005005,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00011,credential_issued_before_completion,credential,CRD-2026-005421,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00012,credential_issued_before_completion,credential,CRD-2026-005767,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00013,credential_issued_before_completion,credential,CRD-2026-005922,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00014,credential_issued_before_completion,credential,CRD-2026-006153,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00015,credential_issued_before_completion,credential,CRD-2026-006344,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00016,credential_issued_before_completion,credential,CRD-2026-006762,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00017,credential_issued_before_completion,credential,CRD-2026-007062,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00018,credential_issued_before_completion,credential,CRD-2026-007073,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00019,credential_issued_before_completion,credential,CRD-2026-007083,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00020,credential_issued_before_completion,credential,CRD-2026-007160,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00021,credential_issued_before_completion,credential,CRD-2026-007256,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00022,credential_issued_before_completion,credential,CRD-2026-007441,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00023,credential_issued_before_completion,credential,CRD-2026-007578,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00024,credential_issued_before_completion,credential,CRD-2026-007754,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00025,credential_issued_before_completion,credential,CRD-2026-008449,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00026,credential_issued_before_completion,credential,CRD-2026-008720,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00027,credential_issued_before_completion,credential,CRD-2026-008723,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00028,credential_issued_before_completion,credential,CRD-2026-008780,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00029,credential_issued_before_completion,credential,CRD-2026-008875,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00030,credential_issued_before_completion,credential,CRD-2026-009165,,credential.csv,issued_at precedes the completion time of at least one qualifying course
+GT-00031,duplicate_credential_id,credential,CRD-2026-004014,LRN-004120,credential.csv,second row with this credential_id (data row 10001) belongs to a different learner
+GT-00032,duplicate_credential_id,credential,CRD-2026-005507,LRN-017337,credential.csv,second row with this credential_id (data row 10002) belongs to a different learner
+GT-00033,duplicate_credential_id,credential,CRD-2026-003270,LRN-014056,credential.csv,second row with this credential_id (data row 10003) belongs to a different learner
+GT-00034,duplicate_credential_id,credential,CRD-2026-008009,LRN-004431,credential.csv,second row with this credential_id (data row 10004) belongs to a different learner
+GT-00035,duplicate_credential_id,credential,CRD-2026-004484,LRN-014124,credential.csv,second row with this credential_id (data row 10005) belongs to a different learner
+GT-00036,duplicate_credential_id,credential,CRD-2026-002093,LRN-013588,credential.csv,second row with this credential_id (data row 10006) belongs to a different learner
+GT-00037,duplicate_credential_id,credential,CRD-2026-001719,LRN-013569,credential.csv,second row with this credential_id (data row 10007) belongs to a different learner
+GT-00038,duplicate_credential_id,credential,CRD-2026-006966,LRN-012258,credential.csv,second row with this credential_id (data row 10008) belongs to a different learner
+GT-00039,revoked_credential_verified_active,verification_request,VER-2026-001195,CRD-2026-004334,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00040,revoked_credential_verified_active,verification_request,VER-2026-004995,CRD-2026-008318,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00041,revoked_credential_verified_active,verification_request,VER-2026-001062,CRD-2026-001168,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00042,revoked_credential_verified_active,verification_request,VER-2026-002294,CRD-2026-006296,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00043,revoked_credential_verified_active,verification_request,VER-2026-001425,CRD-2026-004365,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00044,revoked_credential_verified_active,verification_request,VER-2026-001173,CRD-2026-004671,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00045,revoked_credential_verified_active,verification_request,VER-2026-002086,CRD-2026-003726,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00046,revoked_credential_verified_active,verification_request,VER-2026-001669,CRD-2026-002430,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00047,revoked_credential_verified_active,verification_request,VER-2026-000717,CRD-2026-000296,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00048,revoked_credential_verified_active,verification_request,VER-2026-002677,CRD-2026-007390,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00049,revoked_credential_verified_active,verification_request,VER-2026-000066,CRD-2026-001748,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00050,revoked_credential_verified_active,verification_request,VER-2026-001422,CRD-2026-001162,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00051,revoked_credential_verified_active,verification_request,VER-2026-000470,CRD-2026-000140,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00052,revoked_credential_verified_active,verification_request,VER-2026-004084,CRD-2026-006512,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00053,revoked_credential_verified_active,verification_request,VER-2026-000523,CRD-2026-002850,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00054,revoked_credential_verified_active,verification_request,VER-2026-002105,CRD-2026-004937,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00055,revoked_credential_verified_active,verification_request,VER-2026-001504,CRD-2026-004063,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00056,revoked_credential_verified_active,verification_request,VER-2026-000322,CRD-2026-001936,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00057,revoked_credential_verified_active,verification_request,VER-2026-004997,CRD-2026-009069,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00058,revoked_credential_verified_active,verification_request,VER-2026-004998,CRD-2026-009153,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00059,revoked_credential_verified_active,verification_request,VER-2026-004996,CRD-2026-009036,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00060,revoked_credential_verified_active,verification_request,VER-2026-004928,CRD-2026-008331,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00061,revoked_credential_verified_active,verification_request,VER-2026-000799,CRD-2026-002549,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00062,revoked_credential_verified_active,verification_request,VER-2026-001535,CRD-2026-003356,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00063,revoked_credential_verified_active,verification_request,VER-2026-001677,CRD-2026-005493,verification_request.csv,recorded as valid although the credential was revoked before this check
+GT-00064,payload_hash_altered,credential,CRD-2026-001277,,credential.csv,stored payload_hash was changed after signing
+GT-00065,payload_hash_altered,credential,CRD-2026-006359,,credential.csv,stored payload_hash was changed after signing
+GT-00066,payload_hash_altered,credential,CRD-2026-008260,,credential.csv,stored payload_hash was changed after signing
+GT-00067,payload_hash_altered,credential,CRD-2026-001076,,credential.csv,stored payload_hash was changed after signing
+GT-00068,payload_hash_altered,credential,CRD-2026-002045,,credential.csv,stored payload_hash was changed after signing
+GT-00069,payload_hash_altered,credential,CRD-2026-002311,,credential.csv,stored payload_hash was changed after signing
+GT-00070,payload_hash_altered,credential,CRD-2026-000155,,credential.csv,stored payload_hash was changed after signing
+GT-00071,payload_hash_altered,credential,CRD-2026-007111,,credential.csv,stored payload_hash was changed after signing
+GT-00072,payload_hash_altered,credential,CRD-2026-002174,,credential.csv,stored payload_hash was changed after signing
+GT-00073,payload_hash_altered,credential,CRD-2026-001243,,credential.csv,stored payload_hash was changed after signing
+GT-00074,payload_hash_altered,credential,CRD-2026-000626,,credential.csv,stored payload_hash was changed after signing
+GT-00075,payload_hash_altered,credential,CRD-2026-002396,,credential.csv,stored payload_hash was changed after signing
+GT-00076,payload_hash_altered,credential,CRD-2026-008809,,credential.csv,stored payload_hash was changed after signing
+GT-00077,payload_hash_altered,credential,CRD-2026-001961,,credential.csv,stored payload_hash was changed after signing
+GT-00078,payload_hash_altered,credential,CRD-2026-000473,,credential.csv,stored payload_hash was changed after signing
+GT-00079,payload_hash_altered,credential,CRD-2026-000058,,credential.csv,stored payload_hash was changed after signing
+GT-00080,payload_hash_altered,credential,CRD-2026-006034,,credential.csv,stored payload_hash was changed after signing
+GT-00081,payload_hash_altered,credential,CRD-2026-003526,,credential.csv,stored payload_hash was changed after signing
+GT-00082,payload_hash_altered,credential,CRD-2026-009230,,credential.csv,stored payload_hash was changed after signing
+GT-00083,payload_hash_altered,credential,CRD-2026-000256,,credential.csv,stored payload_hash was changed after signing
+GT-00084,payload_hash_alteration_not_detected,verification_request,VER-2026-000030,CRD-2026-001277,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00085,payload_hash_alteration_not_detected,verification_request,VER-2026-002240,CRD-2026-006359,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00086,payload_hash_alteration_not_detected,verification_request,VER-2026-003620,CRD-2026-008260,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00087,payload_hash_alteration_not_detected,verification_request,VER-2026-000594,CRD-2026-001076,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00088,payload_hash_alteration_not_detected,verification_request,VER-2026-000575,CRD-2026-002045,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00089,payload_hash_alteration_not_detected,verification_request,VER-2026-000565,CRD-2026-002311,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00090,payload_hash_alteration_not_detected,verification_request,VER-2026-000281,CRD-2026-000155,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00091,payload_hash_alteration_not_detected,verification_request,VER-2026-002027,CRD-2026-007111,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00092,payload_hash_alteration_not_detected,verification_request,VER-2026-000032,CRD-2026-002174,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00093,payload_hash_alteration_not_detected,verification_request,VER-2026-000305,CRD-2026-001243,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00094,payload_hash_alteration_not_detected,verification_request,VER-2026-000554,CRD-2026-000626,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00095,payload_hash_alteration_not_detected,verification_request,VER-2026-000190,CRD-2026-002396,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00096,payload_hash_alteration_not_detected,verification_request,VER-2026-003515,CRD-2026-008809,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00097,payload_hash_alteration_not_detected,verification_request,VER-2026-000232,CRD-2026-001961,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00098,payload_hash_alteration_not_detected,verification_request,VER-2026-000202,CRD-2026-000473,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00099,payload_hash_alteration_not_detected,verification_request,VER-2026-000445,CRD-2026-000058,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00100,payload_hash_alteration_not_detected,verification_request,VER-2026-002526,CRD-2026-006034,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00101,payload_hash_alteration_not_detected,verification_request,VER-2026-000490,CRD-2026-003526,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00102,payload_hash_alteration_not_detected,verification_request,VER-2026-004999,CRD-2026-009230,verification_request.csv,recorded as valid although the payload hash fails verification
+GT-00103,payload_hash_alteration_not_detected,verification_request,VER-2026-000405,CRD-2026-000256,verification_request.csv,recorded as valid although the payload hash fails verification

@@ -1,0 +1,1444 @@
+{
+  "learner": {
+    "entity": "Learner",
+    "primary_key": "learner_id",
+    "description": "A person who enrols in courses and can hold credentials. Names are deliberately not unique.",
+    "foreign_keys": [],
+    "fields": [
+      {
+        "name": "learner_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "LRN-NNNNNN, immutable"
+      },
+      {
+        "name": "full_name",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "2-120 chars; NOT unique (duplicate names are intentional)"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "lower-case, valid email; primary identity anchor with date_of_birth"
+      },
+      {
+        "name": "date_of_birth",
+        "type": "date (YYYY-MM-DD)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "between 1960-01-01 and 2008-12-31"
+      },
+      {
+        "name": "country_code",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "IN",
+          "US",
+          "GB",
+          "DE",
+          "CA",
+          "AU",
+          "SG",
+          "AE",
+          "BR",
+          "ZA",
+          "FR",
+          "NG"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "ISO 3166-1 alpha-2"
+      },
+      {
+        "name": "registered_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "not after the dataset reference time"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "active",
+          "suspended",
+          "closed"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "instructor": {
+    "entity": "Instructor",
+    "primary_key": "instructor_id",
+    "description": "Staff member who teaches courses and records assessments.",
+    "foreign_keys": [],
+    "fields": [
+      {
+        "name": "instructor_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "INS-NNNN"
+      },
+      {
+        "name": "full_name",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": ""
+      },
+      {
+        "name": "department",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "app_user": {
+    "entity": "User (login account)",
+    "primary_key": "user_id",
+    "description": "Login account. Passwords are never part of the dataset; accounts start without a usable password.",
+    "foreign_keys": [
+      {
+        "column": "learner_id",
+        "references": "learner"
+      },
+      {
+        "column": "instructor_id",
+        "references": "instructor"
+      }
+    ],
+    "fields": [
+      {
+        "name": "user_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "USR-NNNNNN"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": ""
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "learner",
+          "instructor",
+          "academic_admin",
+          "support_staff",
+          "platform_admin"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "learner_id",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "required when role=learner"
+      },
+      {
+        "name": "instructor_id",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "required when role=instructor"
+      },
+      {
+        "name": "is_active",
+        "type": "integer",
+        "required": true,
+        "allowed": [
+          0,
+          1
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "issuer": {
+    "entity": "Issuer",
+    "primary_key": "issuer_id",
+    "description": "Organisation that signs credentials. Issuers can be retired and replaced by a successor.",
+    "foreign_keys": [
+      {
+        "column": "successor_issuer_id",
+        "references": "issuer"
+      }
+    ],
+    "fields": [
+      {
+        "name": "issuer_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "ISS-NNN"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": ""
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "active",
+          "retired"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "valid_from",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "valid_to",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "required iff status=retired; > valid_from"
+      },
+      {
+        "name": "successor_issuer_id",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "set only when retired; must exist"
+      }
+    ]
+  },
+  "issuer_key": {
+    "entity": "IssuerKey",
+    "primary_key": "key_id",
+    "description": "Ed25519 public key used to verify signatures. Rotation closes the old key and opens a new one.",
+    "foreign_keys": [
+      {
+        "column": "issuer_id",
+        "references": "issuer"
+      }
+    ],
+    "fields": [
+      {
+        "name": "key_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "KEY-ISS-NNN-VV"
+      },
+      {
+        "name": "issuer_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "algorithm",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "Ed25519"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "public_key_b64",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "base64 of the 32-byte raw public key"
+      },
+      {
+        "name": "valid_from",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "valid_to",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "required iff status=rotated"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "active",
+          "rotated"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "course": {
+    "entity": "Course",
+    "primary_key": "course_id",
+    "description": "A taught course with an assessment pass mark and attempt limit.",
+    "foreign_keys": [
+      {
+        "column": "instructor_id",
+        "references": "instructor"
+      }
+    ],
+    "fields": [
+      {
+        "name": "course_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "CRS-NNNNNN"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "level",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "introductory",
+          "intermediate",
+          "advanced"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "credit_hours",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": "hours",
+        "unique": false,
+        "rule": "1-200"
+      },
+      {
+        "name": "pass_mark",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "40-100"
+      },
+      {
+        "name": "max_attempts",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": "attempts",
+        "unique": false,
+        "rule": "1-10"
+      },
+      {
+        "name": "instructor_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "active",
+          "archived"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "credential_rule": {
+    "entity": "CredentialRule",
+    "primary_key": "rule_id",
+    "description": "Requirements for earning a credential: course set (via bridge), thresholds, validity and effective dates.",
+    "foreign_keys": [],
+    "fields": [
+      {
+        "name": "rule_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "RUL-NNNNNN"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": ""
+      },
+      {
+        "name": "credential_type",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "certificate",
+          "micro_credential",
+          "professional_certificate"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "version",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ">= 1"
+      },
+      {
+        "name": "min_courses_required",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": "courses",
+        "unique": false,
+        "rule": ">= number of mandatory courses, <= courses in rule"
+      },
+      {
+        "name": "min_avg_score",
+        "type": "number",
+        "required": true,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "0-100; average of counted courses"
+      },
+      {
+        "name": "min_course_score",
+        "type": "number",
+        "required": true,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "0-100; per-course floor for a course to count"
+      },
+      {
+        "name": "validity_months",
+        "type": "integer",
+        "required": false,
+        "allowed": null,
+        "unit": "months",
+        "unique": false,
+        "rule": "null = never expires"
+      },
+      {
+        "name": "effective_from",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "effective_to",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "> effective_from"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "draft",
+          "active",
+          "retired"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "<= effective_from"
+      }
+    ]
+  },
+  "credential_rule_course": {
+    "entity": "CredentialRule-Course (bridge, N:M)",
+    "primary_key": "rule_id + course_id",
+    "description": "Bridge between rules and courses. A course can belong to several rules.",
+    "foreign_keys": [
+      {
+        "column": "rule_id",
+        "references": "credential_rule"
+      },
+      {
+        "column": "course_id",
+        "references": "course"
+      }
+    ],
+    "fields": [
+      {
+        "name": "rule_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "course_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "is_mandatory",
+        "type": "integer",
+        "required": true,
+        "allowed": [
+          0,
+          1
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "rule_issuer_assignment": {
+    "entity": "RuleIssuerAssignment (effective-dated)",
+    "primary_key": "assignment_id",
+    "description": "Which issuer signs a rule, with effective dates. Issuer changes close one row and open another.",
+    "foreign_keys": [
+      {
+        "column": "rule_id",
+        "references": "credential_rule"
+      },
+      {
+        "column": "issuer_id",
+        "references": "issuer"
+      }
+    ],
+    "fields": [
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "RIA-NNNNNN"
+      },
+      {
+        "name": "rule_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "issuer_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "effective_from",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "effective_to",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "> effective_from; at most one open row per rule"
+      }
+    ]
+  },
+  "completion_record": {
+    "entity": "CompletionRecord",
+    "primary_key": "completion_id",
+    "description": "A learner's enrolment in a course. Status, attempts and score are derived from assessment attempts.",
+    "foreign_keys": [
+      {
+        "column": "learner_id",
+        "references": "learner"
+      },
+      {
+        "column": "course_id",
+        "references": "course"
+      }
+    ],
+    "fields": [
+      {
+        "name": "completion_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "CMP-<learner_id>-<course_id>"
+      },
+      {
+        "name": "learner_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "course_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "enrolled_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "progress_pct",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "0-100; 100 required before assessment"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "enrolled",
+          "in_progress",
+          "completed",
+          "failed",
+          "withdrawn"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "attempts_used",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "= count of assessment_attempt rows"
+      },
+      {
+        "name": "final_score",
+        "type": "number",
+        "required": false,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "= max attempt score; null when no attempts"
+      },
+      {
+        "name": "finalized_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "set iff status in (completed, failed, withdrawn); completed => time of first passing attempt"
+      }
+    ]
+  },
+  "assessment_attempt": {
+    "entity": "AssessmentAttempt",
+    "primary_key": "attempt_id",
+    "description": "Append-only assessment result. Source of truth for score and completion status.",
+    "foreign_keys": [
+      {
+        "column": "completion_id",
+        "references": "completion_record"
+      }
+    ],
+    "fields": [
+      {
+        "name": "attempt_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "ASM-<learner_id>-<course_id>-NN"
+      },
+      {
+        "name": "completion_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "attempt_no",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "1..max_attempts, contiguous, no attempts after a pass"
+      },
+      {
+        "name": "score",
+        "type": "number",
+        "required": true,
+        "allowed": null,
+        "unit": "percent",
+        "unique": false,
+        "rule": "0-100, one decimal"
+      },
+      {
+        "name": "passed",
+        "type": "integer",
+        "required": true,
+        "allowed": [
+          0,
+          1
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "= score >= course.pass_mark"
+      },
+      {
+        "name": "attempted_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "strictly increasing per completion"
+      }
+    ]
+  },
+  "credential": {
+    "entity": "Credential",
+    "primary_key": "credential_id",
+    "description": "Signed credential issued once a rule is satisfied. Immutable apart from the active -> revoked transition.",
+    "foreign_keys": [
+      {
+        "column": "learner_id",
+        "references": "learner"
+      },
+      {
+        "column": "rule_id",
+        "references": "credential_rule"
+      },
+      {
+        "column": "issuer_id",
+        "references": "issuer"
+      },
+      {
+        "column": "key_id",
+        "references": "issuer_key"
+      },
+      {
+        "column": "issued_by",
+        "references": "app_user"
+      }
+    ],
+    "fields": [
+      {
+        "name": "credential_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "CRD-YYYY-NNNNNN, YYYY = issue year"
+      },
+      {
+        "name": "learner_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "rule_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "issuer_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "key_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "issued_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ">= completion time of every qualifying course"
+      },
+      {
+        "name": "expires_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "= issued_at + rule.validity_months"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "active",
+          "revoked"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "revoked iff a revocation row exists"
+      },
+      {
+        "name": "payload_json",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "canonical JSON of the signed claims"
+      },
+      {
+        "name": "payload_hash",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "SHA-256 hex of payload_json"
+      },
+      {
+        "name": "signature_b64",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "Ed25519 signature over the ASCII hex payload_hash"
+      },
+      {
+        "name": "issued_by",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "credential_completion": {
+    "entity": "Credential-Completion (bridge, N:M)",
+    "primary_key": "credential_id + completion_id",
+    "description": "Which completion records qualified a credential (traceability).",
+    "foreign_keys": [
+      {
+        "column": "credential_id",
+        "references": "credential"
+      },
+      {
+        "column": "completion_id",
+        "references": "completion_record"
+      }
+    ],
+    "fields": [
+      {
+        "name": "credential_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "completion_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "revocation": {
+    "entity": "Revocation",
+    "primary_key": "revocation_id",
+    "description": "Append-only record that a credential stopped being valid at effective_at.",
+    "foreign_keys": [
+      {
+        "column": "credential_id",
+        "references": "credential"
+      },
+      {
+        "column": "revoked_by",
+        "references": "app_user"
+      }
+    ],
+    "fields": [
+      {
+        "name": "revocation_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "REV-<credential_id>-NN"
+      },
+      {
+        "name": "credential_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "seq",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ">= 1; part of the ID suffix"
+      },
+      {
+        "name": "reason_code",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "fraud",
+          "academic_misconduct",
+          "issued_in_error",
+          "learner_request",
+          "rule_change"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "reason_detail",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "effective_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "> credential.issued_at"
+      },
+      {
+        "name": "revoked_by",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "verification_request": {
+    "entity": "VerificationRequest",
+    "primary_key": "verification_id",
+    "description": "A third-party or staff check of a credential, with the recorded outcome. Append-only.",
+    "foreign_keys": [
+      {
+        "column": "credential_id",
+        "references": "credential"
+      },
+      {
+        "column": "processed_by",
+        "references": "app_user"
+      }
+    ],
+    "fields": [
+      {
+        "name": "verification_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "VER-YYYY-NNNNNN"
+      },
+      {
+        "name": "presented_credential_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "exactly what the verifier typed or scanned"
+      },
+      {
+        "name": "credential_id",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "resolved credential; null iff result_status=not_found"
+      },
+      {
+        "name": "requested_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "evaluation time used for revocation and expiry"
+      },
+      {
+        "name": "channel",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "public_api",
+          "support_desk",
+          "learner_share"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "requester_type",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "employer",
+          "institution",
+          "learner",
+          "support",
+          "other"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "requester_org",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "presented_hash",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "64 hex chars when supplied"
+      },
+      {
+        "name": "claimed_name",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "claimed_email",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "claimed_dob",
+        "type": "date (YYYY-MM-DD)",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "result_status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "valid",
+          "revoked",
+          "expired",
+          "not_found",
+          "tampered"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "precedence: not_found > tampered > revoked > expired > valid"
+      },
+      {
+        "name": "identity_status",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "matched",
+          "mismatch",
+          "insufficient_identifiers",
+          "not_requested"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "name alone is never sufficient; needs email or date_of_birth"
+      },
+      {
+        "name": "integrity_ok",
+        "type": "integer",
+        "required": false,
+        "allowed": [
+          0,
+          1
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": "null iff not_found"
+      },
+      {
+        "name": "processed_by",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      }
+    ]
+  },
+  "audit_event": {
+    "entity": "AuditEvent",
+    "primary_key": "event_id",
+    "description": "Immutable, hash-chained history of state changes.",
+    "foreign_keys": [
+      {
+        "column": "actor_user_id",
+        "references": "app_user"
+      }
+    ],
+    "fields": [
+      {
+        "name": "event_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "AUD-NNNNNNNNN, equals seq"
+      },
+      {
+        "name": "seq",
+        "type": "integer",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "contiguous from 1"
+      },
+      {
+        "name": "occurred_at",
+        "type": "timestamp (UTC, YYYY-MM-DDTHH:MM:SSZ)",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "non-decreasing with seq"
+      },
+      {
+        "name": "actor_type",
+        "type": "string",
+        "required": true,
+        "allowed": [
+          "user",
+          "public",
+          "system"
+        ],
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "actor_user_id",
+        "type": "string",
+        "required": false,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "set iff actor_type=user"
+      },
+      {
+        "name": "action",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "entity_type",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "entity_id",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": ""
+      },
+      {
+        "name": "details_json",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "canonical JSON"
+      },
+      {
+        "name": "prev_hash",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": false,
+        "rule": "event_hash of the previous event; 64 zeros for the first"
+      },
+      {
+        "name": "event_hash",
+        "type": "string",
+        "required": true,
+        "allowed": null,
+        "unit": null,
+        "unique": true,
+        "rule": "SHA-256 over prev_hash and event content"
+      }
+    ]
+  }
+}

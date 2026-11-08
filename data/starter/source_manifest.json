@@ -1,0 +1,15 @@
+{
+  "external_data_used": false,
+  "summary": "All records are synthetic and generated programmatically from a fixed seed. No external dataset, scraped content or personal information was used.",
+  "embedded_reference_lists": [
+    "given names",
+    "family names",
+    "course topics",
+    "organisation names"
+  ],
+  "embedded_list_provenance": "Written by the author for this project; names are common, generic words and do not identify any real individual or institution. Email domains use reserved .example TLD.",
+  "schema_inspiration": [
+    "Open Badges 3.0 / W3C Verifiable Credentials data model (concepts only, no data copied)"
+  ],
+  "license_of_generated_data": "Same as the repository; free to redistribute."
+}
